@@ -1,3 +1,4 @@
+<!--Log in form-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,3 +100,63 @@
 <h1>For happy and healthy life</h1>
 <p>Happiness is when what you think, what you say, and what you do are in harmony  </p>
 </body>
+
+
+<!--Travel-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+</head>
+<h1><i>Traveling-it leaves you speechless, then turns you into a storyteller</i></h1>
+<body style="background-color: rgb(250, 216, 223);"
+    <div style="background-image: url('Background.jpg.jpg');"></div>
+    <div class="Sidebar">
+        <div class="sidebarpics">
+            <img src="Bern.jpg.jpg" alt="Bern" width="280" height="200">
+            <div class="columns content">
+                <div class="content-container"></div>
+                <h2>Bern</h2>
+            
+            <p>
+                Bern is a beautiful and tranquil city has a lot to offer its visitors. Due to its incredibly long history and marvelous old town it has been recognized as a UNESCO World Heritage Site.
+                Stores, markets and boutiques: Bern is a shopper’s paradise. And thanks to the six kilometres of arcades, you can enjoy your shopping trip in any weather.The city of Bern has had a close relationship with the bear since its foundation. According to legend, the city owes its name to the animal. The bear now appears on flags, fountains, and buildings, and can even be visited in the public BearPark.This Rose Garden is home to 100s of rose, iris, and rhododendron varieties, so visitors who love flowers will certainly enjoy their time here. The Rose Garden opened in 1913 and provides stunning views of the old town. An interesting fact about the garden is that it used to be a cemetery. If you want to refresh your mind and relax, the rose garden, which is situated on Alter Aargauerstalden 31B, 3006 Bern, is definitely the best place for you.
+            </p>
+        </div>
+    </div>
+            <img src="NewYork.jpg.jpg" alt="New York-City of lights" width="280" height="200" >
+            <p>
+                New York City is the most populous city in the United States, with around 8.5 million residents.Contrary to what you might think, New York City is the greenest city in America. The 843-acre Central Park, the most famous park in the city, is actually only the 5th largest. Jog, walk, bike, in-line skate, horseback ride, ice skate, rent row boats, play basketball, softball, soccer, tennis and enjoy special events.
+                One of the most quintessential things to do in New York City is shopping (window shopping counts!); poke around the shops that line Fifth and Madison Avenues where you can find high-end designer labels and check out the seasonal, museum-worthy window displays.Of all the things to do in New York, one of the most exciting is seeking out the best views of the city skyline. Head to either the Top of the Rock or Empire State Building (or both to compare the views!).
+                Both attractions include exhibits that explore New York City’s rich history before you board an elevator to get sky-high views. 
+            </p>
+
+            <img src="Cappadocia.jpg.jpg" alt="Cappadocia-"width="280" height="200">
+            <p>
+                Cappadocia offers unique memories and experiences to its visitors in its unique geography.Famous for its unique rock formations and amazing hot air ballooning opportunities, the otherworldly landscapes of Cappadocia are one of Turkey’s most popular natural wonders.
+                Cappadocia is known to be one of the best places in the world to be explored from a hot air balloon. The gorgeous landscapes of this region can be best experienced from way up in the air. The colourful hot air balloons can gently go over and between chimneys, pigeon houses nestled into rock formations, vineyards and over valleys-giving tourists a once-in-a-lifetime experience.Cappadocia also has great tastes as it is in all parts of Anatolia. Due to the influx of tourists in the area, it is possible to find many restaurants that serve delicious home cooking. Among the deep valleys, the Cappadocia region, which has an exquisite view where the power of nature is felt, has a number of hills with impressive views. Rose Valley, Paşabağ Monks Valley, Pigeon Valley, Love Valley are among the options. They have the scenery that allows you to witness for wonderful photo frames at sunrise and sunset. Also Cappadocia has plenty of hidden treasures for you to discover. One of it would be the underground cities that were used as hidden bunks, back in the days.
+            </p>
+            <img src="Paris.jpg.jpg" alt="Paris" width="280" height="200">
+            <p>
+                
+                From iconic bucket list attractions like the Eiffel Tower to picture-perfect pleasures like a picnic on the bank of the Seine River, Paris offers something for everyone. 
+                Your first visit may feel magical, but even if you return dozens of times, you will never run out of new things to see and do. Explore the medieval streets of the Marais, lounge on a Paris "beach," tour the famous Les Puces flea market, or enjoy a concert in a magnificent Paris church or other exciting venue.
+                Take a cooking class, look down on Paris from a hot air balloon, stroll high above the city on the Promenade Plantée.Paris hotels and apartments are more affordable than you might expect.  Spend a fortune or relatively little for a few nights of accommodations - the choice is yours!
+                Hotels & apartments in every price range can be found in every central Paris neighborhood near top attractions.Stop by a bakery for fresh croissants or pain au chocolat, sample macaroons from Hermé or Ladurée, sip tea at Mariage Frères or indulge in a decadently rich hot chocolate at Angelina.
+            </p>
+            <img src="Mykonos.jpg.jpg"  alt="Mykonos" width="280" height="200">
+            <p>
+                When it comes to Greek islands, there's some stiff competition as to which is the most beautiful. When it comes to the most glamorous though, there is no competition at all. It's Mykonos!
+                Mykonos has about 30 sandy beaches with incredibly crystal clear waters.You will find beach activities and water sports such as jet-skiing on most of the beaches in Mykonos. Kalafatis and Ftelia are popular with windsurfers.One of the central streets in Mykonos Town is Matogianni street.Getting lost in the side streets is part of the charm of this attractive Cycladic island, and it happens to everyone.
+                In Chora you will find several shops where you can buy Greek souvenirs or designer’s clothes and jewellery. There are also plenty of restaurants, tavernas, hotels, bars 
+            </p>
+
+
+            
+        </div> 
+</div>    
+</body>
+</html>
