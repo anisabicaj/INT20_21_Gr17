@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login form</title>
+
+    <style>
+        fieldset, legend, form, table{
+              
+            margin: 0px;
+            padding: 0px;
+            height: 0%;
+        }
+
+        body{margin:20px;}
+
+    </style>
+</head>
+<body>
+    <form action="/untitled-1.html" method="post"></form>
+    <fieldset style="width:20px; ">
+        <legend></legend>
+        <table>
+            <tr>
+        <td><h1>Login</h1></td>
+           </tr>
+           <tr>
+        <td><label for="uname">Username:</label><br></td>
+        <td><input type="text" name="username" placeholder="Enter Username" required></td><br><br>
+        </tr>
+        <tr>
+        <td><label for="psw">Password:</label> </td><br>
+        <td><input type="password" name="password" placeholder="Enter Password" required></td>
+         </tr> 
+        <p>
+            <tr colspan = "2">
+        <td colspan="2"><input type="checkbox" name="Remember me" value="Remember me">Remember me</input></td>
+        </tr>
+        </p>               
+        <tr>
+        <td><input type="submit" value="Submit"><br></td>
+        </tr>
+        <P>
+            <tr>
+        <td colspan = "2" ><a href="#">Forgot password?</a></td>
+    </tr>
+         </P>
+         <tr>
+         <td colspan = "2" ><p>Don't have an account?</p><a href="#"> Sign up</a></td>
+         </tr>
+
+
+    </table>
+</fieldset>
+    </form>
+</body>
+</html>
