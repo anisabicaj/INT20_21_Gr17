@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <style type="text/css"> 
+        h1{ text-align: center;}
+    
+        table
+         {
+         border-spacing: 20px;
+         }
+    
+        pre,p
+            {
+                 font-family: Arial;
+                 font-size: 20;
+            }
+       .float-img
+        {
+            font-size: 30; 
+            margin-right: 10px;
+            margin-bottom: 5px;
+            padding: 2px;
+        }
+        .content-table
+        {
+             border: 1px solid black;
+             border-collapse: collapse;
+        }
+        th, td
+        {
+             background-color: rgb(132, 131, 145);
+             padding: 15px; 
+             border-spacing: 20px; 
+        }
+        table
+        {
+             border-spacing: 10px;
+        }
+    
+         *{
+             box-sizing: border-box;
+         }
+         .column{
+           float: left;
+           width: 20%;
+           padding: 5px;
+         }
+
+         .row::after {
+             content: "";
+             display: table;
+             clear: both;
+         }
+
+         .div1{
+             width: 50%;
+             float:left;
+         }
+
+         .div2{
+             width: 50%;
+             float:right;
+         }
+         
+         
+        
+    </style>
+  
+   
+
+<h1><b><i>Traveling- it leaves you speechless, then turns you into a storyteller</i></b></h1><br>
+
+
+
+<h2><li>Top 5 amazing places to visit</li></h2><br>
+</head>
+
+<body style="background-color: rgb(250, 216, 223);"
+    <div class="Sidebar">
+        <div class="sidebarpics">
+
+
+            <img src="Bern.jpg" alt="Bern" width="350" height="250" align="left">
+            <div class="float-img"><br>
+            <pre>
+                <b>Bern</b>
+                Bern is a beautiful and tranquil city has a lot to offer its visitors. Due to its incredibly long
+                history and marvelous old town it has been recognized as a <u>UNESCO World Heritage Site.</u>
+                Stores, markets and boutiques: Bern is a shopper’s paradise. And thanks to the six kilometres of 
+                arcades, you can enjoy your shopping trip in any weather. The city of Bern has had a close 
+                relationship with the bear since its foundation. According to legend, the city owes its name to 
+                the animal. The bear now appears on flags, fountains, and buildings, and can even be visited in the
+                public BearPark. This Rose Garden is home to 100s of rose, iris, and rhododendron varieties, so 
+                visitors who love flowers will certainly enjoy their time here. <mark>The Rose Garden</mark> opened in 1913 and 
+                provides stunning views of the old town. An interesting fact about the garden is that it used to be 
+                a cemetery. If you want to refresh your mind and relax, the rose garden, which is situated on
+                <u>Alter Aargauerstalden 31B, 3006 Bern</u> is definitely the best place for you.
+            </pre>
+        </div>
+        </div>
+        </div>
+        <br><br>
+        <div>
+            <img src="NewYork.jpg" alt="New York-City of lights" width="350" height="250" align="right" ><br>
+            <div class="float-img"><br>
+            <pre>
+                <b>New York</b>
+                New York City is the most populous city in the United States, with around <u>8.5 million residents.</u>
+                Contrary to what you might think, New York City is <mark>the greenest city in America.</mark>
+                The 843-acre Central Park, the most famous park in the city, is actually only the 5th largest. 
+                Jog, walk, bike, in-line skate, horseback ride, ice skate, rent row boats, play basketball, softball,
+                soccer, tennis and enjoy special events.One of the most quintessential things to do in <abbr title="New York City">NYC</abbr> is
+                shopping (window shopping counts!); poke around the shops that line Fifth and Madison
+                Avenues where you can find high-end designer labels and check out the seasonal, museum-worthy 
+                window displays. Of all the things to do in New York, one of the most exciting is seeking out the
+                best views of the city skyline. Head to either the Top of the Rock or Empire State Building
+                (or both to compare the views!). Both attractions include exhibits that explore New York City’s
+                rich history before you board an elevator to get sky-high views.
+
+            </pre>
+        </div>
+
+            <img src="Cappadocia.jpg" alt="Cappadocia-"width="350" height="250" align="left">
+            <div class="float-img"><br>
+            <pre>
+                <b>Cappadocia</b>
+                Cappadocia offers unique memories and experiences to its visitors in its unique geography.Famous for its 
+                unique rock formations and amazing hot air ballooning opportunities, the otherworldly landscapes of 
+                Cappadocia are one of Turkey’s most popular natural wonders.Cappadocia is known to be one of the best places
+                in the world to be explored from a hot air balloon. The gorgeous landscapes of this region can be best 
+                experienced from way up in the air. The colourful hot air balloons can gently go over and between chimneys,
+                pigeon houses nestled into rock formations, vineyards and over valleys-giving tourists a once-in-a-lifetime
+                experience.Cappadocia also has great tastes as it is in all parts of <mark>Anatolia</mark>. Due to the influx of tourists 
+                in the area, it is possible to find many restaurants that serve delicious home cooking. Among the deep valleys,
+                the Cappadocia region, which has an exquisite view where the power of nature is felt, has a number of hills 
+                with impressive views. <u>Rose Valley, Pigeon Valley, Love Valley</u> are among the options. They have the scenery 
+                that allows you to witness for wonderful photo frames at sunrise and sunset. 
+            </pre>
+            </div>
+            <br><br>
+
+
+            <img src="Paris.jpg" alt="Paris" width="350" height="250" align="right">
+            <div class="float-img"><br>
+            <pre>
+                <b>Paris</b>
+                From iconic bucket list attractions like the <mark>Eiffel Tower</mark> to picture-perfect pleasures like a picnic on the 
+                bank of the Seine River, Paris offers something for everyone. Your first visit may feel magical, but even if
+                you return dozens of times, you will never run out of new things to see and do. Explore the medieval streets
+                of the Marais, lounge on a Paris "beach," tour the famous Les Puces flea market, or enjoy a concert in a 
+                magnificent Paris church or other exciting venue. Take a cooking class, look down on Paris from a hot air 
+                balloon, stroll high above the city on the <u>Promenade Plantée</u>.Paris hotels and apartments are more affordable
+                than you might expect.  Spend a fortune or relatively little for a few nights of accommodations -
+                the choice is yours! Hotels & apartments in every price range can be found in every central Paris 
+                neighborhood near top attractions.Stop by a bakery for fresh croissants or pain au chocolat, sample macaroons
+                from <u>Hermé or Ladurée,</u> sip tea at <u>Mariage Frères or indulge</u> in a decadently rich hot chocolate at <u>Angelina.</u>
+            </pre>
+            <br><br>
+
+
+            <img src="Mykonos.jpg"  alt="Mykonos" width="350" height="250" align="left">
+            <div class="float-img"><br>
+            <pre>
+                <b>Mykonos</b>
+                When it comes to Greek islands, there's some stiff competition as to which is the most beautiful. When it comes
+                to the most glamorous though, there is no competition at all. It's Mykonos! Mykonos has about 30 sandy beaches 
+                with incredibly crystal clear waters.You will find beach activities and water sports such as jet-skiing on most
+                of the beaches in Mykonos. Kalafatis and Ftelia are popular with windsurfers.One of the central streets in
+                Mykonos Town is <mark>Matogianni street</mark>.Getting lost in the side streets is part of the charm of this attractive 
+                <u>Cycladic island</u>, and it happens to everyone. In Chora you will find several shops where you can buy Greek 
+                souvenirs or designer’s clothes and jewellery. There are also plenty of restaurants, tavernas, hotels and bars.
+            </pre>
+        </div> 
+</div>   
+<br><br>
+
+<div class="div1">
+<table class="content-table" rules="all" cellspacing="1">
+    <caption style="font-size: 22px;"><b>Top 5 Most Visited Countries in Europe</b></caption>
+    <tr>
+    <th></th>
+    <th>Country</th>
+    <th>Capital City</th>
+    <th>Number of visitors</th>
+    </tr>
+        <tr>
+        <td>1</td>
+        <td>France</td>
+        <td>Paris</td>
+        <td>89.4 million</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Spain</td>
+            <td>Madrid</td>
+            <td>82.7 million</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Italy</td>
+                <td>Rome</td>
+                <td>62.1 million</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Turkey</td>
+                    <td>Ankara</td>
+                    <td>45.7 million</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>38.8 million</td>
+                    </tr>
+</table>
+</div>
+
+<div class="div">
+<p><b>Best cities to visit this winter</b><p>
+<ol>
+    <li>Prague, Czech Republic</li>
+    <li>Salzburg, Austria</li> 
+    <ul>
+        <li>Hohensalzburg Fortress</li>
+        <li>Mirabell palace</li>
+        <li>Tomaselli café</li>
+    </ul>
+    <li>Tromsø, Norway</li>
+    <li>Amsterdam, Netherlands</li>
+    <ul>
+        <li>Anne Frank House </li>
+        <li>Van Gogh Museum</li>
+        <li>Central Park of Amsterdam</li>
+        <li>Vondelpark</li>
+    </ul>
+    <li>Ottawa, Canada</li>
+    <ul>
+        <li>Rideau Canal</li>
+        <li>Peace Tower</li>
+        <li>Byward Market</li>
+    </ul>
+    <li>Washington D.C., United States</li>
+</ol>
+</div>
+<br>
+
+<br>
+<div class="row">
+    <div class="column">
+      <img src="Prague.jpg" alt="Prague" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="Salzburg.jpeg" alt="Salzburg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="Tromso.jpg" alt="Tromso" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="Amsterdam.jpg" alt="Amsterdam" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Ottawa.jpg" alt="Ottawa" style="width:100%">
+      </div>
+  </div>
+
+
+  <div class="div3">
+    <form action="/Signup form.html" method="post">
+        <h2>Rate us</h2>
+        <label for="uname">First name:</label>
+        <input type="text" name="fname" placeholder="Enter your first name" required>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" placeholder="Enter your last name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required> 
+
+         <p></label>Did you like our page</label>
+         <input type="radio" name="gender" value="yes"> Yes
+         <input type="radio" name="" value="no"> No
+        <br>
+        Rate your experience in our page:
+
+        <label for="vol">Rating (between 0 and 10):</label>
+        <input type="range" id="vol" name="vol" min="0" max="10"></p>
+        <p><input type="submit"></p>
+    </form>
+</div>
+
+
+</body>
+</html>
