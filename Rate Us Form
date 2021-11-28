@@ -7,7 +7,7 @@
 </head>
 <body>
     <div>
-    <form action="/Signup form.html" method="post">
+    <form action="/RateUsForm.html" method="post">
         <h2>Rate us</h2>
         <label for="uname">First name:</label><br>
         <input type="text" name="fname" placeholder="Enter your first name" required><br><br>
