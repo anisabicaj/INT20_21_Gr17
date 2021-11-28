@@ -1,3 +1,4 @@
+<!--Anisa-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,46 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
+    </head>
+
     <style type="text/css"> 
         h1{ text-align: center;}
     
-        table
-         {
+        table{
          border-spacing: 20px;
          }
     
-        pre,p
-            {
+        pre,p {
                  font-family: Arial;
                  font-size: 20;
             }
-       .float-img
-        {
+       .float-img {
             font-size: 30; 
             margin-right: 10px;
             margin-bottom: 5px;
             padding: 2px;
         }
-        .content-table
-        {
+        .content-table {
              border: 1px solid black;
              border-collapse: collapse;
         }
-        th, td
-        {
+        th, td {
              background-color: rgb(132, 131, 145);
              padding: 15px; 
              border-spacing: 20px; 
         }
-        table
-        {
+        table {
              border-spacing: 10px;
         }
     
          *{
              box-sizing: border-box;
          }
-         .column{
+         .column {
            float: left;
            width: 20%;
            padding: 5px;
@@ -56,30 +53,27 @@
              clear: both;
          }
 
-         .div1{
+         .div1 {
              width: 50%;
              float:left;
          }
 
-         .div2{
+         .div2 {
              width: 50%;
              float:right;
          }
          
-         
-        
+ 
     </style>
   
    
 
 <h1><b><i>Traveling- it leaves you speechless, then turns you into a storyteller</i></b></h1><br>
 
-
-
 <h2><li>Top 5 amazing places to visit</li></h2><br>
-</head>
 
-<body style="background-color: rgb(250, 216, 223);"
+
+<body style="background-color: rgb(250, 216, 223);">
     <div class="Sidebar">
         <div class="sidebarpics">
 
@@ -220,7 +214,7 @@
 </table>
 </div>
 
-<div class="div">
+<div class="div2">
 <p><b>Best cities to visit this winter</b><p>
 <ol>
     <li>Prague, Czech Republic</li>
@@ -244,12 +238,9 @@
         <li>Peace Tower</li>
         <li>Byward Market</li>
     </ul>
-    <li>Washington D.C., United States</li>
-</ol>
 </div>
-<br>
 
-<br>
+<br><br>
 <div class="row">
     <div class="column">
       <img src="Prague.jpg" alt="Prague" style="width:100%">
@@ -269,7 +260,7 @@
   </div>
 
 
-  <div class="div3">
+<div class="div3">
     <form action="/Signup form.html" method="post">
         <h2>Rate us</h2>
         <label for="uname">First name:</label>
@@ -295,3 +286,18 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
