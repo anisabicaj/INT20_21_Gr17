@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<head>
+    <title>Health</title>
+    
+    <link rel="stylesheet" type="text/css" href="style2.CSS">
+    </head>
+    <body style="background-color:rgb(241, 206, 206);">
+
+        <h1>What is health?</h1>
+        <div class="sidebarpics">
+            <embed type="image/jpg" src="health6.jpg" width="500" height="350" align="left">
+           
+            <br></br>
+            <div class="foat-jpg">
+                <pre>
+            <p>Health is a resource to support an individual’s function in wider society. 
+               <br>Good health is central to handling stress and living a longer, more active life.
+               <br>Health is a positive concept emphasizing social and personal resources, as well as physical capacities.
+               <br><span class="keywords">Mental</span> and <span class="keywords">physical</span> health are probably the two most frequently discussed types of health.
+               <br>Spiritual, emotional, and financial health also contribute to overall health.</br>
+            </p>
+            </pre>  
+            </div>  
+        </div>
+  <br></br>
+     
+        <div class="sidebarpics">
+            <img src="healthy.jpg" align="right" >
+            <br></br>
+            <div class="float-jpg">
+              <pre> 
+          <p>Health is a state of complete harmony of the body, mind and spirit.
+                <br> When one is free from physical disabilities and mental 
+                <br>distractions the gates of the soul open.<br></p>
+            </pre>
+            </div>  
+        </div>
+  
+
+
+        <div class="sidebarpics">
+            <img src="health4.jpg" align="left" >
+            
+            <div class="float-jpg">
+                <pre>
+                    <p align="center">Good health can be measured in many ways.
+                <br> Weight, fitness, emotional well-being,are just a few of those measures.
+                <br>Three things healthy people do everyday:
+                 <ul>
+                  <li>Exercise</li>
+                  <li>Maintain a nutritious diet</li>
+                  <li>Get a good night's sleep</li>
+            </ul>
+                 </p>
+            </pre>
+                </div>
+        </div>
+    </body>
+            <body>
+            
+            <h2>Healthy Diet</h2>
+            
+            <table style="width:100%">
+              <tr>
+                <th>
+
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </th>
+            </tr>
+            
+            
+            
+            <tr>
+                <td bgcolor="pink">Breakfast</td>
+            <td><br>One grapefruit
+                 <br>Two poached eggs
+                <br>One cup herbal tea</br>
+            <td><br>One muffin
+                <br>One orange
+                <br>Large glassnon-fat milk</br>
+             <td><br>One medium bran muffin
+                 <br>One serving turkey sausage
+                 <br>Large glassnon-fat milk</br>
+            <td><br>One cup wheat flakes
+                <br>One banana
+                <br>One slice whole-grain toast </br>
+            <td><br>One piece of French toast
+                    <br>One scrambled egg
+                    <br>One cup orange juice </br>
+             <td><br>One cup corn flakes 
+                        <br>One hard-boiled egg
+                        <br>One cup black coffee </br>
+             <td><br>Two slices turkey bacon
+                            <br>One cup non-fat milk
+                            <br>One cup black coffee</br>
+                                         
+            
+               
+            </tr>
+            
+            <tr>
+            <td bgcolor="violet">Calories</td>
+            <td><br> 555</br></td>
+            <td><br>521</br></td>
+            <td><br>543</br></td>
+            <td><br>557</br></td>
+            <td><br>449</br></td>
+            <td><br>407</br></td>
+            <td><br>442</br></td>
+            
+            
+            </tr>
+            </table>
+        </body>
+        <body>
+            
+            <h2>Workout 6 days a week</h2>
+            <style>
+                .img-container {
+                  text-align: center;
+                }
+              </style>
+            </head>
+            
+                <div class="img-container">
+                <img src="fitness.jpg" >
+              </div>
+            
+            <table style="width:100%">
+              <tr>
+                
+
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+               
+            </tr>
+            
+            <tr>
+                
+                <td><br>Shoulders
+                <br>Cardio</br></td>
+            <td><br>Legs
+            <br>Cardio</br></td>
+            <td><br>Back 
+                <br>Abs</br></td>
+            <td><br>Biceps
+            <br>Plyometric</br></td>
+            <td><br>Triceps
+            <br>Abs</br></td>
+            <td><br>Rest</br></td>
+            <td><br>Chest
+            <br>Abs</br></td>
+                  
+        </tr>
+    </table>
+</body>
+
+
+<!--CSS-->
+.img-with-text {
+    text-align: justify;
+    font-family: sans-serif;
+    width: 390px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+div { text-align: center; }
+ul { display: inline-block; text-align: left; }
+}
+span.keywords {
+  color: #f00;
+}
+
+
+table{
+  border-spacing: 10px;
+  
+}
+
+  .table, th, td {
+    border:1px solid rgb(134, 56, 56);
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 20px;
+  }
+ .table,th{
+      background:purple;
+      padding:20px;
+      text-transform: uppercase;
+  }
+  
