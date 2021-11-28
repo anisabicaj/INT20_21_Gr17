@@ -6,7 +6,7 @@
     <title>Send us a message</title>
 </head>
 <body>
-    <form action="Send us a message" method="post">
+    <form action="LeaveAMessage.html" method="post">
         <fieldset style="width:50px">  
            
         <h2>Send us a message</h2>
