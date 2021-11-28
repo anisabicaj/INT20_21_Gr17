@@ -18,12 +18,12 @@
 
     </style>
 
-    <form action="Sign In Form" method="post"></form>
+    <form action="LogInForm.html" method="post"></form>
     <fieldset style="width:20px; ">
         <legend></legend>
         <table>
             <tr>
-        <td><h1>Login</h1></td>
+        <td><h1>Log In</h1></td>
            </tr>
            <tr>
         <td><label for="uname">Username:</label><br></td>
