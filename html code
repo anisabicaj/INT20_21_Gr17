@@ -63,43 +63,45 @@
 
        <p><input type="submit" value="Register"><br> </p> 
 
-
     </form>
 </body>
 </html>
+
+
 <!-- Pjesa home-->
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viwepoint" content="width=device-width">
-<meta name="author" content="Ariana Berisha dhe Anisa Bicaj">
-
-<title>PERFECT LIVING | Welcome</title>
+<title>HOME-PERFECT LIVING | Welcome</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<header>
-<div class="container">
-<div id="branding">
-<h1>PERFECT LIVING</h1>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="logo1.png">
+            </div>
+            <ul>
+                
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="index.html">TRAVEL</a></li>
+                <li><a href="index.html">THINGS TO TRY</a></li>
+                <li><a href="health1.HTML">HEALTH</a></li>
+                <li><a href="aboutus1.html">ABOUT US</a></li>
+                           
+            </ul>
 
-
-</div>
-<nav>
-<ul>
-<li><a href="index.html">HOME</a></li>
-<li><a href="index.html">TRAVEL</a></li>
-<li><a href="index.html">THINGS TO TRY</a></li>
-<li><a href="index.html">HEALTH</a></li>
-<li><a href="index.html">ABOUT US</a></li>
-</ul>
-</div>
-</header>
-<section id="showcase">
-<div class="container">
-<h1>For happy and healthy life</h1>
-<p>Happiness is when what you think, what you say, and what you do are in harmony  </p>
+        </div>
+        <div class="title">
+            <h1>PERFECT LIVING</h1>
+            </div>
+            <div class="button">
+                <a href="index.html" class="btn">LEARN MORE</a>
+            </div>
+    </header>
 </body>
+</html>
+
 
 
 <!--Travel-->
@@ -160,3 +162,118 @@
 </div>    
 </body>
 </html>
+
+<!--Health-->
+<!DOCTYPE html>
+<head>
+    <title>Health</title>
+    
+    <link rel="stylesheet" type="text/css" href="style2.CSS">
+    <body style="background-color:rgb(241, 206, 206);"></body>
+
+        <h1>What is health?</h1>
+        <div class="sidebarpics">
+            <img src="health6.jpg" width="500" height="350"align="left" >
+            <br></br>
+            <div class="foat-jpg"><br>
+                <pre>
+            <p>Health is a resource to support an individual’s function in wider society. 
+               <br>Good health is central to handling stress and living a longer, more active life.
+               <br>Health is a positive concept emphasizing social and personal resources, as well as physical capacities.
+               <br>Mental and physical health are probably the two most frequently discussed types of health.
+               <br>Spiritual, emotional, and financial health also contribute to overall health.</br>
+            </p>
+            </pre>  
+            </div>  
+        </div>
+  <br></br>
+     
+        <div class="sidebarpics">
+            <img src="healthy.jpg"  align="right" >
+            <br></br>
+            <div class="foat-jpg"><br>
+                <pre>
+            <p>Health is a state of complete harmony of the body, mind and spirit.
+                <br> When one is free from physical disabilities and mental 
+                <br>distractions the gates of the soul open.<br></p>
+            </pre>  
+            </div>  
+        </div>
+  
+
+
+        <div class="sidebarpics">
+            <img src="health4.jpg" align="left" >
+          
+            <div class="foat-jpg"><br>
+                <pre>
+            <p>Good health can be measured in many ways.
+                <br> Weight, fitness, emotional well-being,are just a few of those measures.
+                <br> There are three key things that healthy people do every day:
+                 <ul>
+                  <li>Coffee</li>
+                  <li>Tea</li>
+                  <li>Milk</li>
+                </ul>  
+                </p>
+            </pre>
+        </div>
+    
+            <body>
+            
+            <h2>Healthy Diet</h2>
+            
+            <table style="width:100%">
+              <tr>
+                <th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </th>
+            </tr>
+         
+            <tr>
+            <td>Breakfast</td>
+            <td><br>One grapefruit
+                 <br>Two poached eggs
+                <br>One cup herbal tea</br>
+            <td><br>One muffin
+                <br>One orange
+                <br>Large glassnon-fat milk</br>
+             <td><br>One medium bran muffin
+                 <br>One serving turkey sausage
+                 <br>Large glassnon-fat milk</br>
+            <td><br>One cup wheat flakes
+                <br>One banana
+                <br>One slice whole-grain toast </br>
+            <td><br>One piece of French toast
+                    <br>One scrambled egg
+                    <br>One cup orange juice </br>
+             <td><br>One cup corn flakes 
+                        <br>One hard-boiled egg
+                        <br>One cup black coffee </br>
+             <td><br>Two slices turkey bacon
+                            <br>One cup non-fat milk
+                            <br>One cup black coffee</br>
+         
+            </tr>
+           
+            <tr>
+            <td>Calories</td>
+            <td><br> 555</br></td>
+            <td><br>521</br></td>
+            <td><br>543</br></td>
+            <td><br>557</br></td>
+            <td><br>449</br></td>
+            <td><br>407</br></td>
+            <td><br>442</br></td>
+       
+            </tr>
+            </table>
+        </body>
+           
+</head>
