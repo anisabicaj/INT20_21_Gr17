@@ -3,30 +3,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rate us</title>
+    <title>Send us a message</title>
 </head>
 <body>
-    <div>
-    <form action="/Signup form.html" method="post">
-        <h2>Rate us</h2>
-        <label for="uname">First name:</label><br>
-        <input type="text" name="fname" placeholder="Enter your first name" required><br><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" name="lname" placeholder="Enter your last name" required><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Enter email" required><br><br> 
-
-         </label>Did you like our page</label>
-         <input type="radio" name="gender" value="yes"> Yes
-         <input type="radio" name="" value="no"> No
+    <form action="Send us a message" method="post">
+        <fieldset style="width:50px">  
+           
+        <h2>Send us a message</h2>
         
-         <p><b>Rate your experience in our page</b></p>
+        <label for="uname">Your name:</label><br>
+        <input type="text" name="fname" placeholder="Enter your first name"><br><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" name="lname" placeholder="Enter your last name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+        
+       <p>Your message (suggestion):</p>
+ 
+	   <textarea rows="5" cols="20" placeholder="Comment..."></textarea><br/>
+       
 
-        <label for="vol">Rating (between 0 and 10):</label>
-        <input type="range" id="vol" name="vol" min="0" max="10"><br><br>
-        <input type="submit">
-    </form>
-</div>
+       <p><input type="submit" value="Submit"><br></p> 
+
+    
+       </fieldset>
+
+</form>
 </body>
 </html>
