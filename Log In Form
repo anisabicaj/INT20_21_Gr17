@@ -23,7 +23,7 @@
         <legend></legend>
         <table>
             <tr>
-        <td><h1>Log In</h1></td>
+        <td><h1>Log in</h1></td>
            </tr>
            <tr>
         <td><label for="uname">Username:</label><br></td>
@@ -47,7 +47,7 @@
     </tr>
          </P>
          <tr>
-         <td colspan = "2" ><p>Don't have an account?</p><a href="#"> Sign up</a></td>
+         <td colspan = "2" ><p>Don't have an account?</p><a href="SignUpForm.html" target="_blank"> Sign up</a></td>
          </tr>
 
 
