@@ -94,6 +94,11 @@
       For more ideas related to food and cakes: <a href="#C1">Experiment in the kitchen</a>
     </dd>
  </dl>
+ 
+  <li><b>Go out in the nature and listen to the bird noises, it will calm and relax you.</b></li>
+ <audio controls>
+   <source src="birds.wav" type="audio/ogg">
+ </audio>
 
  </body>
  </html>
