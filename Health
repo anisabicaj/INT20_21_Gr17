@@ -1,9 +1,54 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Health</title>
-    
-    <link rel="stylesheet" type="text/css" href="style2.CSS">
     </head>
+    
+    <style type="text/css">
+
+    .img-with-text {
+    text-align: justify;
+    font-family: sans-serif;
+    width: 390px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+div { text-align: center; }
+ul { display: inline-block; text-align: left; }
+}
+span.keywords {
+  color: #f00;
+}
+
+
+table{
+  border-spacing: 10px;
+  
+}
+
+.table, th, td {
+    border:1px solid rgb(134, 56, 56);
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 20px;
+  }
+.table,th{
+      background:purple;
+      padding:20px;
+      text-transform: uppercase;
+  }
+  </style>
+   
     <body style="background-color:rgb(241, 206, 206);">
 
         <h1>What is health?</h1>
@@ -169,49 +214,4 @@
         </tr>
     </table>
 </body>
-
-
-
-<!--CSS-->
-.img-with-text {
-    text-align: justify;
-    font-family: sans-serif;
-    width: 390px;
-}
-
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
-}
-
-h1{
-  text-align: center;
-}
-h2{
-  text-align: center;
-}
-div { text-align: center; }
-ul { display: inline-block; text-align: left; }
-}
-span.keywords {
-  color: #f00;
-}
-
-
-table{
-  border-spacing: 10px;
-  
-}
-
-  .table, th, td {
-    border:1px solid rgb(134, 56, 56);
-    border-collapse: collapse;
-    padding: 20px;
-    font-size: 20px;
-  }
- .table,th{
-      background:purple;
-      padding:20px;
-      text-transform: uppercase;
-  }
-  
+</html>
