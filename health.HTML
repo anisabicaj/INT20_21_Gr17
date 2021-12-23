@@ -6,16 +6,6 @@
     
     <style type="text/css">
 
-    .img-with-text {
-    text-align: justify;
-    font-family: sans-serif;
-    width: 390px;
-}
-
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
-}
 
 h1{
   text-align: center;
@@ -23,13 +13,13 @@ h1{
 h2{
   text-align: center;
 }
-div { text-align: center; }
-ul { display: inline-block; text-align: left; }
+div { text-align: center;
+ }
+ul { display: inline-block; text-align: left; 
 }
 span.keywords {
   color: #f00;
 }
-
 
 table{
   border-spacing: 10px;
@@ -46,17 +36,73 @@ table{
       background:purple;
       padding:20px;
       text-transform: uppercase;
-  }
+
+  
+  
+
+}
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: rgb(148, 62, 62);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #59836c;
+  color: white;
+}
+
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid rgb(135, 168, 137);
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color:#000;
+}
+ul li.active a{
+    background-color: rgb(148, 173, 150);
+    color:#000;
+}
   </style>
-   
-    <body style="background-color:rgb(241, 206, 206);">
+   <div id="navbar">
+
+    <ul>   
+        <li><a href="home.HTML">HOME</a></li>
+        <li class="active"><a href="health.HTML">HEALTH</a></li>
+        <li><a href="travel.html">TRAVEL</a></li>
+        <li><a href="ThingsToTry.html">THINGS TO TRY</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="login.HTML">LOG IN</a></li>         
+    </ul>
+    </div>
+    <body style="background-color:rgb(156, 185, 167);">
 
         <h1>What is health?</h1>
-        <div class="sidebarpics">
             <embed type="image/jpg" src="health6.jpg" width="500" height="350" align="left">
            
             <br></br>
-            <div class="foat-jpg">
+            <div class="float-jpg">
                 <pre>
             <p>Health is a resource to support an individual’s function in wider society. 
                <br>Good health is central to handling stress and living a longer, more active life.
@@ -69,7 +115,7 @@ table{
         </div>
   <br></br>
      
-        <div class="sidebarpics">
+        
             <img src="healthy.jpg" align="right" >
             <br></br>
             <div class="float-jpg">
@@ -88,28 +134,29 @@ table{
             
             <div class="float-jpg">
                 <pre>
-                    <p align="center">Good health can be measured in many ways.
+                    <p >Good health can be measured in many ways.
                 <br> Weight, fitness, emotional well-being,are just a few of those measures.
                 <br>Three things healthy people do everyday:
-                 <ul>
+                 
                   <li>Exercise</li>
                   <li>Maintain a nutritious diet</li>
                   <li>Get a good night's sleep</li>
-            </ul>
+           
                  </p>
             </pre>
                 </div>
         </div>
     </body>
+    <br></br>
             <body>
-            
+              
             <h2>Healthy Diet</h2>
             <center>
             <video width ="500" controls >
                 <source src="video.mp4" type="video/mp4" >
             </video>
             </center>
-            <table style="width:100%">
+            <table >
               <tr>
                 <th>
 
@@ -126,7 +173,7 @@ table{
             
             
             <tr>
-                <td bgcolor="pink">Breakfast</td>
+                <td bgcolor="rgb(135, 168, 137)">Breakfast</td>
             <td><br>One grapefruit
                  <br>Two poached eggs
                 <br>One cup herbal tea</br>
@@ -154,7 +201,7 @@ table{
             </tr>
             
             <tr>
-            <td bgcolor="violet">Calories</td>
+            <td bgcolor="rgb(83, 95,84)">Calories</td>
             <td><br> 555</br></td>
             <td><br>521</br></td>
             <td><br>543</br></td>
