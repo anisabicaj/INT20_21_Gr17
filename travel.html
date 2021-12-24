@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
-    </head>
+
+
+    <link rel= "stylesheet" href = "stilizimi.css">
+   
 
     <style type="text/css"> 
         h1{ text-align: center;}
@@ -16,10 +19,10 @@
     
         pre,p {
                  font-family: Arial;
-                 font-size: 20;
+                 font-size: 15px;
             }
        .float-img {
-            font-size: 30; 
+            font-size: 30px; 
             margin-right: 10px;
             margin-bottom: 5px;
             padding: 2px;
@@ -36,13 +39,23 @@
         table {
              border-spacing: 10px;
         }
+
+        .div1 {
+             width: 50%;
+             float:left;
+         }
+
+         .div2 {
+             width: 50%;
+             float:right;
+         }
     
          *{
              box-sizing: border-box;
          }
          .column {
            float: left;
-           width: 20%;
+            width: 20%;
            padding: 5px;
          }
 
@@ -52,30 +65,38 @@
              clear: both;
          }
 
-         .div1 {
-             width: 50%;
-             float:left;
-         }
 
-         .div2 {
-             width: 50%;
-             float:right;
-         }
-         
+         .description {  
+                    padding:5px;
+                    background-color:rgb(50, 50, 50);
+                    color: white;
+                    bottom: 0px; 
+                    width: 305px; 
+                    text-transform: uppercase;
+                    text-align:center;
+                }
  
     </style>
-  
-   
+     </head>
 
-<h1><b><i>Traveling- it leaves you speechless, then turns you into a storyteller</i></b></h1><br>
+     
+<div id="navbar">
 
-<h2><li>Top 5 amazing places to visit</li></h2><br>
+    <ul>   
+        <li><a href="#">HOME</a></li>
+        <li><a href="health.HTML">HEALTH</a></li>
+        <li class="active"><a href="travel.html">TRAVEL</a></li>
+        <li><a href="ThingsToTry.html">THINGS TO TRY</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="login.HTML">LOG IN</a></li>         
+    </ul>
+    </div>
+    
+    <body style="background-color: rgb(156, 185, 167);">
+        
+    <h1><b><i>&#x1D54B&#x1D563&#x1D552&#x1D567&#x1D556&#x1D55D&#x1D55A&#x1D55F&#x1D558- it leaves you speechless, then turns you into a storyteller</i></b></h1><br>
 
-
-<body style="background-color: rgb(250, 216, 223);">
-    <div class="Sidebar">
-        <div class="sidebarpics">
-
+        <h2><li>Top 5 amazing places to visit</li></h2><br>
 
             <img src="Bern.jpg" alt="Bern" width="350" height="250" align="left">
             <div class="float-img"><br>
@@ -213,54 +234,48 @@
 </table>
 </div>
 
+<br><br><br><br><br><br><br>
+
 <div class="div2">
-<p><b>Best cities to visit this winter</b><p>
+<h2><b>Best cities to visit this winter</b></h2>
 <ol>
-    <li>Prague, Czech Republic</li>
-    <li>Salzburg, Austria</li> 
-    <ul>
-        <li>Hohensalzburg Fortress</li>
-        <li>Mirabell palace</li>
-        <li>Tomaselli café</li>
-    </ul>
-    <li>Tromsø, Norway</li>
-    <li>Amsterdam, Netherlands</li>
-    <ul>
-        <li>Anne Frank House </li>
-        <li>Van Gogh Museum</li>
-        <li>Central Park of Amsterdam</li>
-        <li>Vondelpark</li>
-    </ul>
-    <li>Ottawa, Canada</li>
-    <ul>
-        <li>Rideau Canal</li>
-        <li>Peace Tower</li>
-        <li>Byward Market</li>
-    </ul>
+    <li style="font-size: 20px;">Prague, Czech Republic</li>
+    <li style="font-size: 20px;">Salzburg, Austria</li> 
+    <li style="font-size: 20px;">Tromsø, Norway</li>
+    <li style="font-size: 20px;">Amsterdam, Netherlands</li>
+    <li style="font-size: 20px;">Ottawa, Canada</li>
+    
 </div>
 
+
 <br><br>
+
 <div class="row">
     <div class="column">
-      <img src="Prague.jpg" alt="Prague" style="width:100%">
+      <img src="Prague.jpg" alt="Prague" style="width:100%" width = "290" height = "190">
+      <div class="description">Prague</div>
     </div>
     <div class="column">
-      <img src="Salzburg.jpg" alt="Salzburg" style="width:100%">
+      <img src="Salzburg.jpg" alt="Salzburg" style="width:100%" width = "290" height = "190">
+      <div class="description">Salzburg</div>
     </div>
     <div class="column">
-      <img src="Tromso.jpg" alt="Tromso" style="width:100%">
+      <img src="Tromso.jpg" alt="Tromso" style="width:100%" width = "290" height = "190">
+      <div class="description">Tromso</div>
     </div>
     <div class="column">
-        <img src="Amsterdam.jpg" alt="Amsterdam" style="width:100%">
+        <img src="Amsterdam.jpg" alt="Amsterdam" style="width:100%" width = "290" height = "190">
+        <div class="description">Amsterdam</div> 
       </div>
       <div class="column">
-        <img src="Ottawa.jpg" alt="Ottawa" style="width:100%">
+        <img src="Ottawa.jpg" alt="Ottawa" style="width:100%" width = "290" height = "190">
+        <div class="description">Ottawa</div>
       </div>
   </div>
 
 
 <div class="div3">
-    <form action="/Signup form.html" method="post">
+    <form action="/RateUsForm.html" method="post">
         <h2>Rate us</h2>
         <label for="uname">First name:</label>
         <input type="text" name="fname" placeholder="Enter your first name" required>
@@ -271,13 +286,13 @@
         <input type="email" id="email" name="email" placeholder="Enter email" required> 
 
          <p></label>Did you like our page</label>
-         <input type="radio" name="gender" value="yes"> Yes
+         <input type="radio" name="" value="yes"> Yes
          <input type="radio" name="" value="no"> No
         <br>
         Rate your experience in our page:
 
-        <label for="vol">Rating (between 0 and 10):</label>
-        <input type="range" id="vol" name="vol" min="0" max="10"></p>
+        <label for="range">Rating (between 0 and 10):</label>
+        <input type="range" id="rating" name="rating" min="0" max="10"></p>
         <p><input type="submit"></p>
     </form>
 </div>
@@ -285,10 +300,4 @@
 
 </body>
 </html>
-
-
-
-
-
-
 
