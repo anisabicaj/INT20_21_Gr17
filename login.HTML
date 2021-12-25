@@ -20,10 +20,10 @@
 
         table {
          border: 1px solid black;
-         
+         border-style: double;
+         border-width: thick;
         }
-
-        
+       
         .wrap{
         max-width:400px;
         border-radius:20px;
@@ -31,7 +31,7 @@
         background: rgba(8, 90, 63, 0.486);
         box-sizing:border-box;
         height: 480px;
-        padding:40px;
+        padding:40px 35px;
         color:#fff;
         margin-top:100px;
         width: 330px;
@@ -68,7 +68,7 @@
            </tr>
            <tr>
         <td><label for="uname">Username:</label><br></td>
-        <td><input type="text" name="username" placeholder="Enter Username" required></td><br><br>
+        <td><input type="text" name="username" placeholder="Enter Username" required autocomplete="on"></td><br><br>
         </tr>
         <tr>
         <td><label for="psw">Password:</label> </td><br>
@@ -80,7 +80,7 @@
         </tr>
         </p>               
         <tr>
-        <td><input type="submit" value="Submit"><br></td>
+        <td><input type="submit" value="Submit" formtarget="_self"></td>
         </tr>
         <P>
             <tr>
@@ -90,7 +90,7 @@
          <tr>
          <td colspan = "2" ><p>Don't have an account?</p><a href="signup.html"> Sign up</a></td>
          </tr>
-
+         formtarget="_blank|_self|_parent|_top|framename">
         </div>
 
          
