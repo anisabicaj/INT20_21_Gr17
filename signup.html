@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign up form</title>
+
+    <link rel= "stylesheet" href = "stilizimi.css">
+
 </head>
-<body style="background-color:rgb(241, 206, 206);">
-<body>
-    <form action="SignUpForm.html" method="post">
+
+<body style="background-color:rgb(156, 185, 167);">
+
+
+        <div id="navbar">
+  
+            <ul>   
+                <li><a href="home.HTML">HOME</a></li>
+                <li><a href="health.HTML">HEALTH</a></li>
+                <li><a href="travel.html">TRAVEL</a></li>
+                <li><a href="ThingsToTry.html">THINGS TO TRY</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li class="active"><a href="login.HTML">LOG IN</a></li>         
+            </ul>
+            </div>
+    
+    <form action="SignUpForm.html" method="post" novalidate>
        
     
         <h1>Sign up</h1>
         
         <label for="uname">First name:</label><br>
-        <input type="text" name="fname" placeholder="Enter your first name" required><br><br>
+        <input type="text" name="fname" placeholder="Enter your first name" required autofocus><br><br>
         
         <label for="lname">Last name:</label><br>
         <input type="text" name="lname" placeholder="Enter your last name" required><br><br>
@@ -25,7 +42,7 @@
          <input type="date" value="2021-11-19" id="mydate"><br><br>
         
          <label for="myphone">Phone number: </label>
-         <input type="phone" id="myphone" placeholder="xx-xxx-xxx"><br><br>
+         <input type="tel" id="myphone" placeholder="xx-xxx-xxx"><br><br>
          
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
