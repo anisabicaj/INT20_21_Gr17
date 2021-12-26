@@ -30,14 +30,14 @@
         .content-table {
              border: 1px solid black;
              border-collapse: collapse;
+             outline-style: solid;
+             outline-color: rgb(16, 73, 40);
+             outline-width: thin;
         }
         th, td {
              background-color: rgb(132, 131, 145);
              padding: 15px; 
              border-spacing: 20px; 
-        }
-        table {
-             border-spacing: 10px;
         }
 
         .div1 {
@@ -64,9 +64,7 @@
              display: table;
              clear: both;
          }
-         h2 {
-          text-shadow: 2px 2px #5e7062;
-}
+
 
          .description {  
                     padding:5px;
@@ -77,7 +75,29 @@
                     text-transform: uppercase;
                     text-align:center;
                 }
-                background: radial-gradient(#e66465, #9198e5);
+
+                #myBtn {
+                 width: 220px;
+                 font-size: 18px;
+                 padding: 10px;
+                 border: none;
+                 background: #000;
+                 color: #fff;
+                 cursor: pointer;
+                 margin-left: 52%;
+                 margin-right: 48%;
+                        }
+
+                 #myBtn:hover {
+                 background: #ddd;
+                 color: black;
+                              }
+                 .div4 {
+                     margin-right: 500px;
+                     margin-left: 500px;
+                 }
+
+ 
     </style>
      </head>
 
@@ -95,13 +115,14 @@
     </div>
     
     <body style="background-color: rgb(156, 185, 167);">
-
-    <h1><b><i>Traveling- it leaves you speechless, then turns you into a storyteller</i></b></h1><br>
+        
+    <h1><b><i>&#x1D54B&#x1D563&#x1D552&#x1D567&#x1D556&#x1D55D&#x1D55A&#x1D55F&#x1D558- it leaves you speechless, then turns you into a storyteller</i></b></h1><br>
 
         <h2><li>Top 5 amazing places to visit</li></h2><br>
 
             <img src="Bern.jpg" alt="Bern" width="350" height="250" align="left">
             <div class="float-img"><br>
+                <section>
             <pre>
                 <b>Bern</b>
                 Bern is a beautiful and tranquil city has a lot to offer its visitors. Due to its incredibly long
@@ -116,8 +137,7 @@
                 a cemetery. If you want to refresh your mind and relax, the rose garden, which is situated on
                 <u>Alter Aargauerstalden 31B, 3006 Bern</u> is definitely the best place for you.
             </pre>
-        </div>
-        </div>
+        </section>
         </div>
         <br><br>
         <div>
@@ -280,16 +300,16 @@
     <form action="/RateUsForm.html" method="post">
         <h2>Rate us</h2>
         <label for="uname">First name:</label>
-        <input type="text" name="fname" placeholder="Enter your first name" required>
+        <input type="text" name="fname" placeholder="Enter your first name"  autocomplete="on" required>
         <label for="lname">Last name:</label>
-        <input type="text" name="lname" placeholder="Enter your last name" required>
+        <input type="text" name="lname" placeholder="Enter your last name" autocomplete="on" required>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Enter email" required> 
 
          <p></label>Did you like our page</label>
-         <input type="radio" name="" value="yes"> Yes
-         <input type="radio" name="" value="no"> No
+         <input type="radio" name="radio" value="yes"> Yes
+         <input type="radio" name="radio" value="no"> No
         <br>
         Rate your experience in our page:
 
@@ -300,12 +320,97 @@
 </div>
 
 
+
+
+<div class="div4">
+  <pre> <b>        Some of the best mountain places to visit during winter are:
+         Tahoe (California), Bend (Oregon), Bog&#235 (Kosov&#235;), Ashland (Oregon),
+          Bisbee (Arizona), Brezovic&#235; (Kosov&#235;).</b>  
+</pre> 
+</div>
+
+
+    <center>
+<video width ="500" autoplay muted loop id="myVideo">
+    <source src="video2.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+    </video>
+   </center>
+
+    <button id="myBtn" onclick="myFunction()" style="float:center">Pause</button>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+
+   <br><br>
+   
+
+   <canvas id="mycanvas" width="270" height="130" 
+              style="border:3px solid #c3c3c3;">
+              Your browser does not support the HTML5 canvas tag.
+   </canvas>  
+
+
+   <script>
+    var c = document.getElementById("mycanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();              
+    ctx.font = "Arial 20px";
+    ctx.fillStyle ="#FFEEFF";
+    ctx.moveTo(0, 45);
+    ctx.lineTo(300, 45);
+    ctx.moveTo(0, 42);
+    ctx.lineTo(300, 42);
+
+    ctx.stroke(); 
+    ctx.strokeText("Travel the world!",10,80);
+    ctx.strokeText("Enjoy your life!",10,90);
+    ctx.strokeText("Be happy!",10,100);
+
+    
+    var grd = ctx.createLinearGradient(0,0,300,0);
+    grd.addColorStop(0,"grey");
+    grd.addColorStop(1,"white");
+
+    ctx.fillStyle = grd;
+    ctx.fillRect(0,0,300,40);
+    </script>
+
+<h4>Which country do you plan to visit in 2022?</h4>
+
+<form action="/action_page.php" method="get">
+  <label for="country">Choose the country you want to visit:</label>
+  <input list="countries" name="country" id="country">
+  <datalist id="countries">
+    <option value="France">
+    <option value="Austria">
+    <option value="Maldives">
+    <option value="Turkey">
+    <option value="Italy">
+    <option value="Netherlands">
+    <option value="Greece">
+    <option value="Finland">
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+
 </body>
 </html>
-
-
-
-
 
 
 
