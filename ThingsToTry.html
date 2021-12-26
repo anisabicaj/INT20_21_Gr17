@@ -1,103 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html manifest="demo.appcache">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Things to try</title>
-</head>
-<body>
+
+    <link rel= "stylesheet" href = "stilizimi.css">
+
 <style>
-  body{
-    background-image:url('bg.jpg');
+   
+    body {
+    background-image:url('bg4.jpg');
     background-size: cover;
     }
     img{
        opacity: 0.2;
     }
+    h2
+    {
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+    
+</style>
+<div id="navbar">
+
+   <ul>   
+       <li><a href="home.HTML">HOME</a></li>
+       <li><a href="health.HTML">HEALTH</a></li>
+       <li><a href="travel.html">TRAVEL</a></li>
+       <li class="active"><a href="ThingsToTry.html">THINGS TO TRY</a></li>
+       <li><a href="aboutus.html">ABOUT US</a></li>
+       <li><a href="login.HTML">LOG IN</a></li>         
+   </ul>
+   </div>
     
 </style>
 
+<script>
+	function clickevent()
+	{
+		document.write("This is the best website for a simple and perfect living!");
+	}
+</script>
+<form>
+<input type="button" onclick="clickevent()" value="Who's this?"/>
+
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 7+5;
+</script>
+
+
+</head>
+
+<body>
 
 <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" align="center"><i>Things to try</i></h1>
 
 <h2><li>Top things to try in your life</li></h2><br>
 
-
+<article>
 <dl>
     <dt style="font-size: 18px;"><b>Meditate</b></dt>
     <dd>Speaking of meditation ... there's more evidence now than ever that meditation is beneficial for your mental and physical health. According to Everyday Health, meditation can improve concentration, reduce stress, prevent cognitive decline, and keep your brain healthy and alert as you age.</dd>
  </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Create a piece of art</b></dt>
     <dd>
         Maybe you've never thought of yourself as the "artistic type," but everyone has a creative side. Experiment with paint, make a piece of jewelry, or craft something you saw on Pinterest — all of these activities will sharpen your creative abilities, which in turn will improve your problem solving skills and give you a fresh perspective on life.</dd>
  </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Explore your hometown like a tourist</b></dt>
     <dd>
         When you've lived somewhere your whole life, it can be hard to see the things that make your town truly special. Act like a tourist for a day in your own hometown by researching the city to find out what special attractions it has, its best restaurants, and its best parks. Wander around your town with a plan to see everything (or as much as you can) that makes it special. You'll see it in a way you never have before.</dd>
  </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Accomplish a fitness goal</b></dt>
     <dd>
         At least once in our lives, we should achieve some sort of athletic feat, whether it's finishing a 5K, completing an entire season on an intramural team, or learning a new sport. This is something you'll look back on and feel great about, which will give you an instant boost of confidence to tackle whatever lies ahead of you. Checking off that athletic goal will make you say, "I did that, now I can do anything."</dd>
  </dl>
+</article>
 
- <dl> <div id="C1">
+<article>
+ <dl> 
+    <div id="C1">
    <dt style="font-size: 18px;"><b>Experiment in the kitchen</b></dt>
    <dd> Some of us are born chefs, while others struggle to whip up tasty meals in the kitchen. Cooking alone gives you the time to experiment with different recipes and sharpen your skills, and you won't have your significant other complaining about burnt bread in the background.
      Here's a file with easy and delicious meal recipes: <a href="file:///C:/Users/anisa/Desktop/Meal_Ideas.pdf" target="_blank">101 Square Meals</a></dd>
   </div>
 </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Travel to a lesser known destination</b></dt>
     <dd>It is easy to stick to classic destinations, and although this is perfectly fine, one should also visit a lesser known destination, at least once. How about Bhutan, Nepal, Namibia, Uganda and Nigeria? Or why not Guatemala, French Guyana, the Faroe Islands or Albania?<br>
         Here's a link  where you can find some good places to visit: <a href="https://www.opodo.co.uk/blog/amazing-unknown-places/">24 Amazing Unknown Places You Never Knew Existed</a></dd>
  </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Volunteer Work</b></dt>
     <dd> Working as a volunteer is something that everyone should do at least once in life. You will become a  better person and above all get the chance to help others who are less fortuned. Helping others is good for your heart, and together we can make the world a better place for all.
          You’ll also become more humble and get the chance to meet other cultures!</dd>
  </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Scuba dive</b></dt>
     <dd>It is remarkable how much of the ocean that’s still unexplored, despite the fact that the earth consists of 70% water. Diving is both exciting and different from everything else that we can experience on land.
         Explore ancient shipwrecks, coral reefs and swim among colorful fish and other marine animals.</dd>
  </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Visit a museum</b></dt>
     <dd>Strolling at your own pace through the different exhibits you've been dying to see on your own can be liberating. With no one around to rush you through, you can take your time to appreciate the artwork around you without hearing, "Mom, can we leave now?"<br>
         Here's a link where you can find some of the most interesting museums in world: <a href="https://www.veranda.com/travel/g1436/best-museums-in-the-world/?slide=13" target="_blank">These Are the 40 Best Museums in the World</a></dd>
  </dl>
+</article>
 
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Travel solo</b></dt>
     <dd>Take a cue from Eat, Pray, Love and plan a solo trip. At the end of the movie, Julia Roberts finds the love of her life because she spent the first part of the movie traveling the world alone in order to find herself. It doesn't matter how far you go (try a staycation!) or what you do while you're there, as long as you challenge yourself a bit, create some memories, and have a blast while doing it.</dd>
  </dl>
+</article>
 
+<article>
  <dl>
    <dt style="font-size: 18px;"><b>Adopt a pet</b></dt>
    <dd>Sure, puppy cuddles and adorable selfies with your cat are great as it is, but there's so much more to adopting a pet than that. Not only are you potentially saving your furry friend's life, pets can lower your blood pressure, improve your mood, reduce your risk of depression, improve your fitness level, and may even help you live a longer life.</dd>
 </dl>
- 
+</article>
+
+<article>
  <dl>
     <dt style="font-size: 18px;"><b>Bake a cake</b></dt>
     <dd>Usually you eat cake with a group for a special occasion. But this time, make a cake — and eat a big slice of it — for no other reason than to celebrate yourself. And don't spend one second feeling guilty about it!
       For more ideas related to food and cakes: <a href="#C1">Experiment in the kitchen</a>
     </dd>
  </dl>
+</article>
+
 <br>
- <li><b>Go out in the nature and listen to the bird noises, it will calm and relax you.</b></li>
+ <li><b>Go out in the nature and listen the bird noises or the sound of the rain, it will calm and relax you.</b></li>
  <audio controls>
    <source src="birds.wav" type="audio/ogg">
+ </audio>
+ <audio controls>
+   <source src="audio2.wav" type="audio/ogg">
  </audio>
 
  </body>
