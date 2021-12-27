@@ -4,6 +4,9 @@
     <title>About Us</title>
 
     <link rel= "stylesheet" href = "stilizimi.css">
+
+    <script src="js1.js"></script>
+
         
 </head>
 
@@ -20,6 +23,25 @@
   padding: 15px;
   border-image: url(borderimg.jpg) 10 round;
 }
+
+#div1, #div2 {
+  float: left;
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.div4 {
+             width: 50%;
+             float:left;
+         }
+
+.div5 {
+             width: 50%;
+             float:right;
+         }
 </style>
 
 <div id="navbar">
@@ -63,7 +85,7 @@
      Thank you for visiting our page!
      </h3>
 
-
+     <div class="div4">
     <title>Send us a message</title>
 
     <form action="Send us a message" method="post">
@@ -89,6 +111,40 @@
 
     
        </fieldset>
+       </div>
+
+        <div class="div5">
+       <script>
+        function allowDrop(ev) {
+          ev.preventDefault();
+        }
+        
+        function drag(ev) {
+          ev.dataTransfer.setData("text", ev.target.id);
+        }
+        
+        function drop(ev) {
+          ev.preventDefault();
+          var data = ev.dataTransfer.getData("text");
+          ev.target.appendChild(document.getElementById(data));
+        }
+        </script>
+        </head>
+        <body>
+           
+            
+            <h2><p id="demo">Drag me on the other side and smile!</p></h2> 
+            <button type="button" onclick="myFunction()">Change me</button>
+            <br>
+           
+        
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img src="smile.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="140" height="45">
+        </div>
+        
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+        
 
 
 </form>
