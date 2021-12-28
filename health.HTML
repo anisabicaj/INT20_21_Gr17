@@ -32,7 +32,7 @@ table{
   border-spacing: 10px;
 }
 
-  .table, th, td {
+  .table, td, th {
     border:1px solid rgb(134, 56, 56);
     border-collapse: collapse;
     padding: 20px;
@@ -40,8 +40,13 @@ table{
   }
  .table,th{
       background:purple;
+      border-collapse: collapse;
+      font-size: 20px;
       padding:20px;
       text-transform: uppercase;
+      border:rgb(14, 0, 0);
+      border-style: dotted;
+      border-width: thick;
   }
   ol{
   display:table;
@@ -60,6 +65,15 @@ body  {
         background-attachment: fixed;
         background-position: center; 
       }
+      @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+h1 {
+  font-family: myFirstFont;
+}
+
 #example3{
   border: 2px solid rgb(97, 53, 53);
   padding: 10px;
@@ -74,7 +88,29 @@ body  {
         height: 300px;
         padding: 15x;
         float:right;
-      }
+      
+}
+
+#myDiv {
+  
+  width: 100px;
+  height: 50px;
+  background-color: rgb(161, 118, 118);
+  border: 1px solid black;
+  transform: rotateX(360deg);
+}
+#myDiv1 {
+  float:right;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(161, 118, 118);
+  border: 1px solid black;
+  transform: rotateY(150deg);
+}
+.newspaper {
+  column-count: 2;
+}
+
 </style>
 </head>
    <div id="navbar">
@@ -101,14 +137,21 @@ body  {
                <br>Good health is central to handling stress and living a longer, more active life.
                <br>Health is a positive concept emphasizing social and personal resources, as well as physical capacities.
                <br><span class="keywords">Mental</span> and <span class="keywords">physical</span> health are probably the two most frequently discussed types of health.
-               <br>Spiritual, emotional, and financial health also contribute to overall health.</br>
+               <br>Spiritual, emotional, and financial health also contribute to overall health.
+               <p id="demo"></p>
+               <script>
+                let x = 2 + "gether for a healthy life!";
+                document.getElementById("demo").innerHTML = x;
+                </script></br>
             </p>
             </pre>  
             </div>  
         </div>
   <br></br>
-     
+     <figure>
             <img src="healthy.jpg" align="right" >
+            <figcaption>Regular physical activity can improve your muscle strength</figcaption>
+      </figure>
             <br></br>
             <div class="float-jpg">
               <pre> 
@@ -126,29 +169,27 @@ body  {
                     <p align="center">Good health can be measured in many ways.
                 <br> Weight, fitness, emotional well-being,are just a few of those measures.
                 <br>Three things healthy people do everyday:
-                 
 
-
-           <div id="example1">
+                <div id="example1" > 
                   <li>Exercise</li>
                   <li>Maintain a nutritious diet</li>
                   <li>Get a good night's sleep</li>
-                  </div>
-
+            
                  </p>
-              
             </pre>
                 </div>
         </div>
-    </body>
-            <body>
-           
+    
+            
             <h2>Healthy Diet</h2>
+            <figure>
             <center>
             <video width ="500" controls >
                 <source src="video.mp4" type="video/mp4" >
+                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
             </video>
             </center>
+          </figure>
             <table style="width:100%">
               <tr>
                 <th>
@@ -270,7 +311,17 @@ body  {
 
     </ul>
   </div>
-    <p><a href="https://artofhealthyliving.com/">A link for more options and information about a healthy lifestyle!</a></p>
-   
+
+    <svg height="30" width="40">
+    <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="black" />
+    </svg>
+    <a href="https://artofhealthyliving.com/">A link for more options and information about a healthy lifestyle!</a></p>
+    <div id="myDiv">
+      Take care of yourself!
+      </div>
+      <div id="myDiv1">
+        You matter!
+        </div>
+ 
   </style>
 </body>
