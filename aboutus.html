@@ -14,9 +14,13 @@
     
 <style>
 #example1{
-    border: 1px solid;
+  border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px rgb(51, 95, 57);
+  background: url(img11.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 500px;
+
 }
 #borderimg{
     border: 10px solid transparent;
@@ -41,6 +45,12 @@
 .div5 {
              width: 50%;
              float:right;
+         }
+
+         #borderimg{
+    border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(borderimg.jpg) 10 round;
          }
 </style>
 
@@ -144,6 +154,7 @@
         
         <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     </div>
+
         
 
 
