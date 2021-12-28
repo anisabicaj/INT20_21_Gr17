@@ -539,7 +539,7 @@ place.Name + " is the " + place.Status+" country in the world.";
     <!--Replace-->
     <input type="button" id="rifreskimi" value="Last refresh:" onclick="myFunction3()" /><p id="RF">-</p>
 
-    <p>
+    <p id="demo1">
         For more info about our website, please contact us.
     </p>
     <!--Match-->
@@ -558,8 +558,8 @@ place.Name + " is the " + place.Status+" country in the world.";
     <script>
         function Func() {
             var str = "For more info about our website, please contact us.";
-            var res = str.match(/w/g);
-            document.getElementById("demo").innerHTML = res;
+            var res = str.match(/e/g);
+            document.getElementById("demo1").innerHTML = res;
         }
     
     </script>
