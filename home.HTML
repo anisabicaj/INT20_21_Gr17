@@ -44,44 +44,30 @@ body{
 .btn:hover{
     background-color: #fff;
     color:#000;
-        
-}
-#ex6 {
+        }
+        #ex6 {
   width: 50px;
   height: 20px;
   background-color: none;
   position: relative;
-  animation-name: example;
+  animation-name: example ;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   
 }
-
-@keyframes example {
-  0%   {background-color:none; left:0px; top:0px;}
-  25%  {background-color:none; left:900px; top:0px;}
   
-}
+    
 </style>
 </head>
-<body>
 
 
 <div id="ex6">
     <img src="Flower1.jpg">
 </div>
 
-</body>
 
- 
-
-</style>
-
-  
-
-</head>
 <!----------------------Header----------------------->
-
+<header>
 <body>
     <div class="header">
      
@@ -109,7 +95,14 @@ body{
             </div>
             
     </header>
-   
-   
+
+    <p id="demo"></p>
+
+<script>
+let text1 = "Travel the world, eat healthy ";
+text1 += "and enjoy your life!";
+document.getElementById("demo").innerHTML = text1;
+</script>
+
 </body>
 </html>
