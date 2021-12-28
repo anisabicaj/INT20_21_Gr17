@@ -309,7 +309,7 @@ place.Name + " is the " + place.Status+" country in the world.";
 
 
 
-<br><br>
+<br/><br>
 
 <div class="row">
     <div class="column">
@@ -364,17 +364,18 @@ place.Name + " is the " + place.Status+" country in the world.";
 <div class="div4">
   <pre> <b>        Some of the best mountain places to visit during winter are:
          Tahoe (California), Bend (Oregon), Bog&#235 (Kosov&#235;), Ashland (Oregon),
-          Bisbee (Arizona), Brezovic&#235; (Kosov&#235;), Amsterdam (Netherlands),
+        Bisbee (Arizona), Brezovic&#235; (Kosov&#235;), Amsterdam (Netherlands)
           <a id="demo"></a>
 
           <script>
           const places = ["Sydney (Australia).","Costa Rica","Rome"];
           
           document.getElementById("demo").innerHTML = places[0];
-          </script>
-          </b>  
+          </script></b>
 </pre> 
 </div>
+        </div>
+       
     <center>
     <video width ="500" autoplay muted loop id="myVideo">
     <source src="video2.mp4" type="video/mp4">
@@ -382,17 +383,18 @@ place.Name + " is the " + place.Status+" country in the world.";
     </video>
    </center>
 
-    <button id="myBtn" onclick="myFunction()" style="float:center">Pause</button>
+
+    <button id="myBtn" onclick="myFunction1()" style="float:center">Pause</button>
 
     <script>
         var video = document.getElementById("myVideo");
         var btn = document.getElementById("myBtn");
         
-        function myFunction() {
+        function myFunction1() {
           if (video.paused) {
             video.play();
             btn.innerHTML = "Pause";
-          } else {
+          } else  {
             video.pause();
             btn.innerHTML = "Play";
           }
@@ -535,7 +537,7 @@ place.Name + " is the " + place.Status+" country in the world.";
 
 <div class="cl1">
     <!--Replace-->
-    <input type="button" id="rifreskimi" value="Last refresh:" onclick="myFunction()" /><p id="RF">4 Janar 2020 02:54</p>
+    <input type="button" id="rifreskimi" value="Last refresh:" onclick="myFunction3()" /><p id="RF">-</p>
 
     <p>
         For more info about our website, please contact us.
@@ -547,9 +549,9 @@ place.Name + " is the " + place.Status+" country in the world.";
 
     <script>
 
-        function myFunction() {
-            var str = document.getElementById("RF").innerHTML;
-            var res = str.replace(/28 Dec 2021 02:45/g, Date());
+        function myFunction3() {
+            var str = document.getElementById("rifreskimi").innerHTML;
+            var res = str.replace(str, Date());
             document.getElementById("RF").innerHTML = res;
         }
     </script>
@@ -566,11 +568,6 @@ place.Name + " is the " + place.Status+" country in the world.";
 
 </body>
 </html>
-
-
-
-
-
 
 
 
