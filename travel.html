@@ -136,6 +136,30 @@
             document.getElementById("DT").innerHTML = Date();
 
          </script>
+
+<br>Let us know your location :) </br>
+
+<button onclick="getLocation()">Click</button>
+
+<p id="demo8"></p>
+
+<script>
+var x = document.getElementById("demo8");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
     
     <body style="background-color: rgb(156, 185, 167);">
         <div  id="ex2">“Adventure is worthwhile.”</div>
