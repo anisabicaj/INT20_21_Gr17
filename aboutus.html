@@ -79,32 +79,55 @@
      </div>
 
      <p>Count numbers: <output id="result"></output></p>
-     <button onclick="startWorker()">Start Counting</button> 
-     <button onclick="stopWorker()">Stop Counting</button>
+     <button onclick="startCounter()">Start Counting</button> 
+     <button onclick="stopCounter()">Stop Counting</button>
 
     <p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
 
     <script>
     var w;
 
-    function startWorker() {
-      if(typeof(Worker) !== "undefined") {
+    function startCounter() {
+      if(typeof(Counter) !== "undefined") {
         if(typeof(w) == "undefined") {
-           w = new Worker("demo_workers.js");
+           w = new Counter("demo_workers.js");
          }
         w.onmessage = function(event) {
          document.getElementById("result").innerHTML = event.data;
         };
       } else {
-           document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+           document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers!";
      }
-   }
+    }
 
-function stopWorker() { 
-  w.terminate();
-  w = undefined;
-}
-</script>
+    function stopCounter() { 
+     w.terminate();
+     w = undefined;
+    }
+    </script>
+
+    <p>Please type your age:</p>
+
+     <input id="demo7" type="text">
+     <button type="button" onclick="myFunction()">Test</button>
+     <p id="p01"></p>
+
+     <script>
+         function myFunction() {
+         const message = document.getElementById("p01");
+         message.innerHTML = "";
+         let x = document.getElementById("demo7").value;
+      try { 
+      if(x == "")  throw "empty";
+      if(isNaN(x)) throw "not a number";
+      x = Number(x);
+      if(x < 15)  throw " indicating that you're too young to travel alone outside the country";
+      }
+      catch(err) {
+       message.innerHTML = "Your response is " + err;
+     }
+    }
+     </script>
 
 
      <h3>
