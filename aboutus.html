@@ -22,11 +22,7 @@
   background-size: 1500px 500px;
 
 }
-#borderimg{
-    border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(borderimg.jpg) 10 round;
-}
+
 
 #div1, #div2 {
   float: left;
@@ -47,11 +43,7 @@
              float:right;
          }
 
-         #borderimg{
-    border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(borderimg.jpg) 10 round;
-         }
+        
 </style>
 
 <div id="navbar">
@@ -85,6 +77,35 @@
       
      </address>
      </div>
+
+     <p>Count numbers: <output id="result"></output></p>
+     <button onclick="startWorker()">Start Counting</button> 
+     <button onclick="stopWorker()">Stop Counting</button>
+
+    <p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+
+    <script>
+    var w;
+
+    function startWorker() {
+      if(typeof(Worker) !== "undefined") {
+        if(typeof(w) == "undefined") {
+           w = new Worker("demo_workers.js");
+         }
+        w.onmessage = function(event) {
+         document.getElementById("result").innerHTML = event.data;
+        };
+      } else {
+           document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+     }
+   }
+
+function stopWorker() { 
+  w.terminate();
+  w = undefined;
+}
+</script>
+
 
      <h3>
     <svg width="50" height="46">
