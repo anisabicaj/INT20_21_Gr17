@@ -108,9 +108,7 @@ h1 {
   border: 1px solid black;
   transform: rotateY(150deg);
 }
-.newspaper {
-  column-count: 2;
-}
+
 
 </style>
 </head>
@@ -187,7 +185,6 @@ h1 {
             <center>
             <video width ="500" controls >
                 <source src="video.mp4" type="video/mp4" >
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
             </video>
             </center>
           </figure>
@@ -250,6 +247,29 @@ h1 {
             </table>
         </body>
         <body>
+          <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script>
+            $(document).ready(function(){
+              $("button").click(function(){
+                $("#div1").fadeIn();
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(2500);
+              });
+            });
+            </script>
+            </head>
+            <body>
+            
+            <p>Fun facts.</p>
+            
+            <button>Click</button><br><br>
+            
+            <div id="div1" style="width:100px;height:80px;display:none;background-color:rgb(145, 200, 214);">Laughing is good for the heart.</div><br>
+            <div id="div2" style="width:100px;height:80px;display:none;background-color:rgb(98, 133, 98);">Optimism can help you live longer.</div><br>
+            <div id="div3" style="width:100px;height:80px;display:none;background-color:rgb(91, 91, 146);">Hydration is key for a good complexion.</div>
+            
+            </body>
             
             <h2>Workout 6 days a week</h2>
             <style>
@@ -323,6 +343,6 @@ h1 {
       <div id="myDiv1">
         You matter!
         </div>
- 
+        
   </style>
 </body>
