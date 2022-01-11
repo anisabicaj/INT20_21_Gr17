@@ -388,17 +388,34 @@ place.Name + " is the " + place.Status+" country in the world.";
 <div class="div4">
   <pre> <b>        Some of the best mountain places to visit during winter are:
          Tahoe (California), Bend (Oregon), Bog&#235 (Kosov&#235;), Ashland (Oregon),
-        Bisbee (Arizona), Brezovic&#235; (Kosov&#235;), Amsterdam (Netherlands)
-          <a id="demo"></a>
+          Bisbee (Arizona), Brezovic&#235; (Kosov&#235;), Amsterdam (Netherlands)
+          <b id="demo"></a>
 
           <script>
           const places = ["Sydney (Australia).","Costa Rica","Rome"];
           
           document.getElementById("demo").innerHTML = places[0];
-          </script></b>
+          </script>
+          </pre>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script>
+          $(document).ready(function(){
+            $("button").click(function(){
+              $(".view").hide();
+            });
+          });
+          </script>
+        
+          
+          <pre><b class="view">           In these places you can enjoy the beautiful view of the nature
+           covered with snow.</b>
+          <b> If you visit one of these places, we hope you will have a good time.</b>
+          <button>Click me</button>
+        </b>
 </pre> 
 </div>
-        </div>
+        
        
     <center>
     <video width ="500" autoplay muted loop id="myVideo">
