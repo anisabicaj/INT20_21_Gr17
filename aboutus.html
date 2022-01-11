@@ -19,7 +19,7 @@
   box-shadow: 5px 10px rgb(51, 95, 57);
   background: url(img11.jpg);
   background-repeat: no-repeat;
-  background-size: 1500px 500px;
+  background-size: 2000px 500px;
 
 }
 
@@ -42,7 +42,17 @@
              width: 50%;
              float:right;
          }
+         #panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #4e6954;
+  border: solid 1px #c3c3c3;
+}
 
+#panel {
+  padding: 20px;
+  display: none;
+}
         
 </style>
 
@@ -66,8 +76,31 @@
     <p>Reason of this website is to counsel people how to live a <span style="color:rgb(36, 49, 41);font-weight:bold;border:1px solid black;">perfect life</span> by doing simple things</p>
      <p> like eating healthy,traveling and taking care of ourselves.</p>
      </div>
-     <br>
+     <br></br>
+     
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
 
+</head>
+<body>
+ 
+<div id="flip">Click to show extra information</div>
+<div id="panel">This website was created in 2021 by two contributors Anisa and Ariana</div>
+
+</body>
+     
+ 
+
+ 
+ </body>
+     </head>
+     </script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
