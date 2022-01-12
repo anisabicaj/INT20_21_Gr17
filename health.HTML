@@ -168,12 +168,14 @@ h1 {
                     <p align="center">Good health can be measured in many ways.
                 <br> Weight, fitness, emotional well-being,are just a few of those measures.
                 <br>Three things healthy people do everyday:
+            
 
                 <div id="example1" > 
-                  <li>Exercise</li>
-                  <li>Maintain a nutritious diet</li>
-                  <li>Get a good night's sleep</li>
-            
+
+                 <li>Exercise</li>
+                 <li>Maintain a nutritious diet</li>
+                 <li>Get a good night's sleep</li>
+
                  </p>
             </pre>
                 </div>
@@ -336,7 +338,22 @@ h1 {
     <svg height="30" width="40">
     <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="black" />
     </svg>
-    <a href="https://artofhealthyliving.com/">A link for more options and information about a healthy lifestyle!</a></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert($("#artofhealthyliving").attr("href"));
+  });
+});
+</script>
+</head>
+<body>
+<p><a href="https://artofhealthyliving.com/" id="artofhealthyliving">Artofhealthyliving</a></p>
+
+<button>Show href Value</button>
+
+
+</body>
     <div id="myDiv">
       Take care of yourself!
       </div>
@@ -345,4 +362,5 @@ h1 {
         </div>
         
   </style>
+  
 </body>
