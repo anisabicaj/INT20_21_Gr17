@@ -360,15 +360,16 @@ place.Name + " is the " + place.Status+" country in the world.";
 
 
 <div class="div3">
-    <form action="/RateUsForm.html" method="post">
+    
+        <form action="http://www.randyconnolly.com/tests/process.php" method="post" name="myForm6" onsubmit="return validateForm()">
         <h2>Rate us</h2>
         <label for="uname">First name:</label>
-        <input type="text" name="fname" placeholder="Enter your first name"  autocomplete="on" required>
+        <input type="text" name="fname" placeholder="Enter your first name"  autocomplete="on" >
         <label for="lname">Last name:</label>
-        <input type="text" name="lname" placeholder="Enter your last name" autocomplete="on" required>
+        <input type="text" name="lname" placeholder="Enter your last name" autocomplete="on" >
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter email" required> 
+        <input type="email" id="email" name="email" placeholder="Enter email" > 
 
          <p></label>Did you like our page</label>
          <input type="radio" name="radio" value="yes"> Yes
@@ -605,7 +606,14 @@ place.Name + " is the " + place.Status+" country in the world.";
     
     </script>
 
-
+<script>
+    function validateForm() { 
+      let x = document.forms["myForm6"]["fname","lname","email"].value;
+      if (x == "") {
+        window.alert("All fields must be filled out");
+      }
+    }
+    </script>
 
 </body>
 </html>
