@@ -124,7 +124,8 @@
                 </ul>
                 </div>
 
-    <form action="LogInForm.html" method="post"></form>
+    
+    <form action="http://www.randyconnolly.com/tests/process.php" method="post" name="myForm1" onsubmit="return validateForm()">
 
 
           <div class="wrap">
@@ -136,11 +137,11 @@
            </tr>
            <tr>
         <td><label for="uname">Username:</label><br></td>
-        <td><input type="text" name="username" placeholder="Enter Username" required autocomplete="on"></td><br><br>
+        <td><input type="text" name="username" placeholder="Enter Username" autocomplete="on"></td><br><br>
         </tr>
         <tr>
         <td><label for="psw">Password:</label> </td><br>
-        <td><input type="password" name="password" placeholder="Enter Password" required></td>
+        <td><input type="password" name="password" placeholder="Enter Password" ></td>
          </tr> 
         <p>
             <tr colspan = "2">
@@ -186,5 +187,14 @@
       </div>
 
      
-</body>
+
+<script>
+  function validateForm() { 
+    let x = document.forms["myForm1"]["username","password"].value;
+    if (x == "") {
+      window.alert("All fields must be filled out");
+    }
+  }
+  </script>
+  </body>
 </html>
