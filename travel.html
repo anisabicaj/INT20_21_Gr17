@@ -357,6 +357,24 @@ place.Name + " is the " + place.Status+" country in the world.";
         <div class="description">Ottawa</div>
       </div>
   </div>
+  
+  <p id="demo10"></p>
+
+<script>
+// Constructor function for City object
+function City(name, characteristic) {
+  this.name = name;
+  this.characteristic = characteristic;
+  
+}
+
+const myCity = new City("Prague", " diverse architecture and museums");
+
+
+document.getElementById("demo10").innerHTML =
+"Prague in known for  " + myCity.characteristic + "."; 
+
+</script>
 
 
 <div class="div3">
@@ -416,6 +434,23 @@ place.Name + " is the " + place.Status+" country in the world.";
         </b>
 </pre> 
 </div>
+<p id="demo10"></p>
+
+<script>
+// Constructor function for City objects
+function City(name, characteristic) {
+  this.name = name;
+  this.characteristic = characteristic;
+  
+}
+
+// Create a City object
+const myCity = new City("Amsterdam", " the fields with Dutch Tulips");
+
+// Display characteristic
+document.getElementById("demo10").innerHTML =
+"Amsterdam in known for  " + myCity.characteristic + "."; 
+</script>
         
        
     <center>
@@ -478,7 +513,7 @@ place.Name + " is the " + place.Status+" country in the world.";
     </script>
 
 <form action="/action_page.php" method="get">
-    Username: <input type="text" name="usr_name">
+    Username: <input type="text" name="usr_name" required>
     Encryption: <keygen name="security">
     <input type="submit">
   </form>
@@ -554,16 +589,16 @@ place.Name + " is the " + place.Status+" country in the world.";
         try {
             switch (document.getElementById("airport").value) {
                 case document.getElementById("airport").value = "Istanbul":
-                    alert("Çmimi: 80 €")
+                    alert("Price: 80 €")
                     break;
                 case document.getElementById("airport").value = "Berlin":
-                    alert("Çmimi: 160 €")
+                    alert("Price: 160 €")
                     break;
                 case document.getElementById("airport").value = "Rome":
-                    alert("Çmimi: 90 €")
+                    alert("Price: 90 €")
                     break;
                 case document.getElementById("airport").value = "Paris":
-                    alert("Çmimi: 80 €")
+                    alert("Price: 80 €")
                     break;
             }
         } catch (mybug) {
