@@ -45,7 +45,8 @@ body{
     background-color: #fff;
     color:#000;
         }
-        #ex6 {
+       
+  #ex6 {
   width: 50px;
   height: 20px;
   background-color: none;
@@ -55,7 +56,18 @@ body{
   animation-iteration-count: infinite;
   
 }
-  
+#exp5{
+    text-align: right;
+   color: #fff;
+}
+  @keyframes example {
+      0% {background-color: none; left:0px; top:0px;
+    }
+    25% {background-color: none; left:1000px; top:40px;
+    }
+
+    }
+  }
     
 </style>
 </head>
@@ -98,12 +110,39 @@ body{
 
     <p id="demo"></p>
 
-<script>
-let text1 = "Travel the world, eat healthy ";
-text1 += "and enjoy your life!";
-document.getElementById("demo").innerHTML = text1;
-</script>
-
 
 </body>
+<br></br>
+<head>
+    <div id="exp5">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#btn1").click(function(){
+        $("#test1").text("Welcome");
+      });
+      $("#btn2").click(function(){
+        $("#test2").html("<b>To our website</b>");
+      });
+      $("#btn3").click(function(){
+        $("#test3").val("Perfect Living");
+      });
+    });
+    </script>
+    </head>
+    <body>
+    
+    <p id="test1">This is a paragraph.</p>
+    <p id="test2">This is another paragraph.</p>
+    
+    <p>Input field: <input type="text" id="test3" value="..."></p>
+    
+    <button id="btn1">SetText</button>
+    <button id="btn2">Set HTML</button>
+    <button id="btn3">Set Value</button>
+    
+    </body>
+</div>
+    
+    
 </html>
