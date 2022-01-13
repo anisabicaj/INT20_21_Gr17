@@ -113,7 +113,7 @@
                   outline-offset: 4px;
                  float:center;
                  }
-
+     
  
     </style>
      </head>
@@ -162,7 +162,9 @@ function showPosition(position) {
 
     
     <body style="background-color: rgb(156, 185, 167);">
-        <div  id="ex2">“Adventure is worthwhile.”</div>
+       
+       <div id="ex2" >“Adventure is worthwhile.”</div>
+
         
     <h1><b><i>&#x1D54B&#x1D563&#x1D552&#x1D567&#x1D556&#x1D55D&#x1D55A&#x1D55F&#x1D558- it leaves you speechless, then turns you into a storyteller</i></b></h1><br>
 
@@ -305,7 +307,21 @@ function showPosition(position) {
 </div>
 
 <br><br><br><br><br><br><br>
-
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#btn1").click(function(){
+        $("p").append(" <b>Appended text</b>.");
+      });
+    
+      $("#btn2").click(function(){
+        $("ol").append("<li>Tokyo,Japan</li>");
+      });
+    });
+    </script>
+    </head>
+    <body>
 <div class="div2">
 <h2><b>Best cities to visit this winter</b></h2>
 <ol>
@@ -314,8 +330,36 @@ function showPosition(position) {
     <li style="font-size: 20px;">Tromsø, Norway</li>
     <li style="font-size: 20px;">Amsterdam, Netherlands</li>
     <li style="font-size: 20px;">Ottawa, Canada</li>
-    
+</ol>
 </div>
+<button id="btn2">Append list items</button>
+
+</body>
+</html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("#div10").empty();
+    });
+  });
+  </script>
+  </head>
+  <body>
+  
+  <div id="div10" style="height:100px;width:300px;border:none;background-color:none;">
+  
+  
+  <p>What you need to make sure before traveling is planning and packing properly.
+  Also you should always do research about the place you are going beforehand.</p>
+  
+  </div>
+  <br>
+  
+  <button>Remove</button>
+  
+  </body>
 
 <p id="demo2"></p>
 
@@ -357,37 +401,18 @@ place.Name + " is the " + place.Status+" country in the world.";
         <div class="description">Ottawa</div>
       </div>
   </div>
-  
-  <p id="demo10"></p>
-
-<script>
-// Constructor function for City object
-function City(name, characteristic) {
-  this.name = name;
-  this.characteristic = characteristic;
-  
-}
-
-const myCity = new City("Prague", " diverse architecture and museums");
-
-
-document.getElementById("demo10").innerHTML =
-"Prague in known for  " + myCity.characteristic + "."; 
-
-</script>
 
 
 <div class="div3">
-    
-        <form action="http://www.randyconnolly.com/tests/process.php" method="post" name="myForm6" onsubmit="return validateForm()">
+    <form action="/RateUsForm.html" method="post">
         <h2>Rate us</h2>
         <label for="uname">First name:</label>
-        <input type="text" name="fname" placeholder="Enter your first name"  autocomplete="on" >
+        <input type="text" name="fname" placeholder="Enter your first name"  autocomplete="on" required>
         <label for="lname">Last name:</label>
-        <input type="text" name="lname" placeholder="Enter your last name" autocomplete="on" >
+        <input type="text" name="lname" placeholder="Enter your last name" autocomplete="on" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter email" > 
+        <input type="email" id="email" name="email" placeholder="Enter email" required> 
 
          <p></label>Did you like our page</label>
          <input type="radio" name="radio" value="yes"> Yes
@@ -402,7 +427,8 @@ document.getElementById("demo10").innerHTML =
 </div>
 
 
-
+    
+  
 
 <div class="div4">
   <pre> <b>        Some of the best mountain places to visit during winter are:
@@ -434,23 +460,6 @@ document.getElementById("demo10").innerHTML =
         </b>
 </pre> 
 </div>
-<p id="demo10"></p>
-
-<script>
-// Constructor function for City objects
-function City(name, characteristic) {
-  this.name = name;
-  this.characteristic = characteristic;
-  
-}
-
-// Create a City object
-const myCity = new City("Amsterdam", " the fields with Dutch Tulips");
-
-// Display characteristic
-document.getElementById("demo10").innerHTML =
-"Amsterdam in known for  " + myCity.characteristic + "."; 
-</script>
         
        
     <center>
@@ -479,7 +488,7 @@ document.getElementById("demo10").innerHTML =
         </script>
 
    <br><br>
-   
+  
 
    <canvas id="mycanvas" width="270" height="130" 
               style="border:3px solid #c3c3c3;">
@@ -513,7 +522,7 @@ document.getElementById("demo10").innerHTML =
     </script>
 
 <form action="/action_page.php" method="get">
-    Username: <input type="text" name="usr_name" required>
+    Username: <input type="text" name="usr_name">
     Encryption: <keygen name="security">
     <input type="submit">
   </form>
@@ -589,16 +598,16 @@ document.getElementById("demo10").innerHTML =
         try {
             switch (document.getElementById("airport").value) {
                 case document.getElementById("airport").value = "Istanbul":
-                    alert("Price: 80 €")
+                    alert("Çmimi: 80 €")
                     break;
                 case document.getElementById("airport").value = "Berlin":
-                    alert("Price: 160 €")
+                    alert("Çmimi: 160 €")
                     break;
                 case document.getElementById("airport").value = "Rome":
-                    alert("Price: 90 €")
+                    alert("Çmimi: 90 €")
                     break;
                 case document.getElementById("airport").value = "Paris":
-                    alert("Price: 80 €")
+                    alert("Çmimi: 80 €")
                     break;
             }
         } catch (mybug) {
@@ -641,14 +650,7 @@ document.getElementById("demo10").innerHTML =
     
     </script>
 
-<script>
-    function validateForm() { 
-      let x = document.forms["myForm6"]["fname","lname","email"].value;
-      if (x == "") {
-        window.alert("All fields must be filled out");
-      }
-    }
-    </script>
+
 
 </body>
 </html>
