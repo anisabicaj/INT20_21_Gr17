@@ -36,6 +36,28 @@
                 <li class="active"><a href="login.HTML">LOG IN</a></li>         
             </ul>
             </div>
+
+            <body>
+
+              <h2>For people who want to sign-up</h2>
+              
+              
+              <p id="demo"></p>
+              
+              <script>
+              let text = "Hello everyone we hope you have a good time with us!";
+              
+      
+              let result1 = /Hello/.exec(text);
+              
+              
+              let result2 = /have a good time/.exec(text);
+              
+              document.getElementById("demo").innerHTML =
+              result1 + " " + result2;
+              </script>
+              
+              </body>
     
     <form action="SignUpForm.html" method="post" novalidate>
        
