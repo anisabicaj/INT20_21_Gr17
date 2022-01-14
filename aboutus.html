@@ -69,12 +69,51 @@
         </style>
 <div id="example1">
     <h1>About Us</h1>
-    <p> We represent ourselves as a <span style="color:rgb(36, 49, 41);font-weight:bold">digital content</span> makers of everyday life and interests.</p>
+    <p> We represent ourselves as a <span style="color:rgb(36, 49, 41);font-weight:bold">digital content</span> makers of everyday life and interests.We try our best to bring you new ideas and tips & tricks.</p>
     <p> We create content inspired and curated by general and personal interests and daily activities of people .</p>
     <p>Reason of this website is to counsel people how to live a <span style="color:rgb(36, 49, 41);font-weight:bold;border:1px solid black;">perfect life</span> by doing simple things</p>
      <p> like eating healthy,traveling and taking care of ourselves.</p>
      </div>
      <br>
+
+     <button onclick="rgx()">
+      Click me!
+  </button>
+    
+  <p id="find"></p>
+    
+  <script>
+      function rgx() {
+      var str1 = "We represent ourselves as a digital content"
+               + "makers of everyday life and interests.We try our best to bring you new ideas and tips & tricks.";
+      var regex4 = /and/g;
+      var match4 = str1.match(regex4);
+
+      document.getElementById("find").innerHTML = 
+                  "Found " + match4.length
+                  + " matches: " + match4;
+      }
+  </script>
+
+
+<button onclick="rgx3()">
+  Click me too!
+</button>
+
+<p id="find3"></p>
+
+<script>
+  function rgx3() {
+  var str1 = "We create content inspired and curated by general and personal interests and daily activities of people ."
+           + "Reason of this website is to counsel people how to live a perfect life by doing simple things like eating healthy,traveling and taking care of ourselves.";
+  var regex4 = /people/g;
+  var match4 = str1.match(regex4);
+
+  document.getElementById("find3").innerHTML = 
+              "Found " + match4.length
+              + " matches: " + match4;
+  }
+</script>
 
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
