@@ -79,26 +79,14 @@
 
 <h2><li>Top things to try in your life</li></h2><br>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("b").hide("slow", function(){
-      alert("The paragraph is now hidden");
-    });
-  });
-});
-</script>
 
-<b>
 <article>
 <dl>
     <dt style="font-size: 18px;"><b>Meditate</b></dt>
     <dd>Speaking of meditation ... there's more evidence now than ever that meditation is beneficial for your mental and physical health. According to Everyday Health, meditation can improve concentration, reduce stress, prevent cognitive decline, and keep your brain healthy and alert as you age.</dd>
  </dl>
 </article>
-</b>
-<button>Click me</button>
+
 
 <article>
  <dl>
@@ -159,7 +147,7 @@ document.getElementById("demo13").innerHTML = result;
  <dl>
     <dt style="font-size: 18px;"><b>Volunteer Work</b></dt>
     <dd> Working as a volunteer is something that everyone should do at least once in life. You will become a  better person and above all get the chance to help others who are less fortuned. Helping others is good for your heart, and together we can make the world a better place for all.
-         You’ll also become more humble and get the chance to meet other cultures!
+         You’ll also become more humble and get the chance to meet other cultures! Your happiness will increase and you will have
          <a id="demo8"></a>
          <script>
             const vhours_week1 = 2;
@@ -178,16 +166,6 @@ document.getElementById("demo13").innerHTML = result;
         Explore ancient shipwrecks, coral reefs and swim among colorful fish and other marine animals.</dd>
  </dl>
 </article>
-
-<p id="demo16"></p>
-
-<script>
-let text = "It is remarkable how much of the ocean that’s still unexplored, despite the fact that the earth consists of 70% water. Diving is both exciting and different from everything else that we can experience on land.Explore ancient shipwrecks, coral reefs and swim among colorful fish and other marine animals."; 
-let pattern = /\d/i;
-let result = text.match(pattern);
-
-document.getElementById("demo16").innerHTML = result;
-</script>
 
 <article>
  <dl>
@@ -235,6 +213,15 @@ document.getElementById("demo20").innerHTML = n;
  </dl>
 </article>
 
+Your have
+<b id="demo26"></b>
+   <script>
+   document.getElementById("demo26").innerHTML =Number.MAX_VALUE+" reasons to be happy.";
+   </script>
+   <br>
+   <br>
+   <br>
+
 <button onclick="myFunction1()">Try it</button>
 
 <p id="demo7">Please rate our page!</p>
@@ -262,6 +249,21 @@ function myFunction1() {
  <div id="ex4">
    Don't be afraid to try new things.The best way to not regret the things you didn't do is to do them.
    </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script> 
+ $(document).ready(function(){
+   $("#btn9").click(function(){
+     alert($("#artofhealthyliving").attr("href"));
+   });
+ });
+
+ 
+ </script>
+
+<p><a href="https://artofhealthyliving.com/" id="artofhealthyliving">Artofhealthyliving</a></p>
+ 
+<button id="btn9">Show</button>
 
 
 
