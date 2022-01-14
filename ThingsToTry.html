@@ -79,6 +79,17 @@
 
 <h2><li>Top things to try in your life</li></h2><br>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("b").hide("slow", function(){
+      alert("The paragraph is now hidden");
+    });
+  });
+});
+</script>
+
 <b>
 <article>
 <dl>
@@ -87,7 +98,7 @@
  </dl>
 </article>
 </b>
-
+<button>Click me</button>
 
 <article>
  <dl>
@@ -112,6 +123,18 @@
         At least once in our lives, we should achieve some sort of athletic feat, whether it's finishing a 5K, completing an entire season on an intramural team, or learning a new sport. This is something you'll look back on and feel great about, which will give you an instant boost of confidence to tackle whatever lies ahead of you. Checking off that athletic goal will make you say, "I did that, now I can do anything."</dd>
  </dl>
 </article>
+Keyword: 
+
+<b id="demo13"></b>
+
+<script>
+let text = "At least once in our lives, we should achieve some sort of athletic feat, whether it's finishing a 5K, completing an entire season on an intramural team, or learning a new sport. This is something you'll look back on and feel great about, which will give you an instant boost of confidence to tackle whatever lies ahead of you. Checking off that athletic goal will make you say: I did that, now I can do anything.";
+let pattern = /goal/i;
+let result = text.match(pattern);
+
+document.getElementById("demo13").innerHTML = result;
+</script>
+
 
 <article>
  <dl> 
@@ -130,18 +153,28 @@
         Here's a link  where you can find some good places to visit: <a href="https://www.opodo.co.uk/blog/amazing-unknown-places/">24 Amazing Unknown Places You Never Knew Existed</a></dd>
  </dl>
 </article>
+Keyword: 
+<b id="demo14"></b>
+
+<script>
+let text = "It is easy to stick to classic destinations, and although this is perfectly fine, one should also visit a lesser known destination, at least once. How about Bhutan, Nepal, Namibia, Uganda and Nigeria? Or why not Guatemala, French Guyana, the Faroe Islands or Albania?";
+let pattern = /is/g;
+let result = text.match(pattern);
+
+document.getElementById("demo14").innerHTML = result;
+</script>
 
 <article>
  <dl>
     <dt style="font-size: 18px;"><b>Volunteer Work</b></dt>
     <dd> Working as a volunteer is something that everyone should do at least once in life. You will become a  better person and above all get the chance to help others who are less fortuned. Helping others is good for your heart, and together we can make the world a better place for all.
-         You’ll also become more humble and get the chance to meet other cultures!You happiness will increase and you will have
-         <a id="demo"></a>
+         You’ll also become more humble and get the chance to meet other cultures!
+         <a id="demo8"></a>
          <script>
             const vhours_week1 = 2;
             const vhours_week2= 3;
             let total = vhours_week1 + vhours_week2;
-            document.getElementById("demo").innerHTML =
+            document.getElementById("demo8").innerHTML =
             "The total volunteering hours for a person who has a lot of free time in two weeks should be " + total;
             </script></dd>
  </dl>
@@ -154,6 +187,16 @@
         Explore ancient shipwrecks, coral reefs and swim among colorful fish and other marine animals.</dd>
  </dl>
 </article>
+
+<p id="demo16"></p>
+
+<script>
+let text = "It is remarkable how much of the ocean that’s still unexplored, despite the fact that the earth consists of 70% water. Diving is both exciting and different from everything else that we can experience on land.Explore ancient shipwrecks, coral reefs and swim among colorful fish and other marine animals."; 
+let pattern = /\d/i;
+let result = text.match(pattern);
+
+document.getElementById("demo16").innerHTML = result;
+</script>
 
 <article>
  <dl>
@@ -170,12 +213,27 @@
  </dl>
 </article>
 
+<b id="demo19"></b>
+
+<script>
+let x = Number.NaN;
+document.getElementById("demo19").innerHTML = x;
+</script> shows that there isn't any number here.
+
 <article>
  <dl>
    <dt style="font-size: 18px;"><b>Adopt a pet</b></dt>
    <dd>Sure, puppy cuddles and adorable selfies with your cat are great as it is, but there's so much more to adopting a pet than that. Not only are you potentially saving your furry friend's life, pets can lower your blood pressure, improve your mood, reduce your risk of depression, improve your fitness level, and may even help you live a longer life.</dd>
 </dl>
 </article>
+
+You have
+<b id="demo20"></b>
+<script>
+let num = 4.12345;
+let n = num.toExponential(4);
+document.getElementById("demo20").innerHTML = n;
+</script> chances to adopt a pet.
 
 <article>
  <dl>
@@ -185,21 +243,15 @@
     </dd>
  </dl>
 </article>
-<body>
-   <p id="demo"></p>
-   <script>
-   document.getElementById("demo").innerHTML =Number.MAX_VALUE+" reasons to be happy.";
-   </script>
-   </body>
 
 <button onclick="myFunction()">Try it</button>
 
-<p id="demo">Please rate our page!</p>
+<p id="demo7">Please rate our page!</p>
 
 <script>
 function myFunction() {
-  let text = document.getElementById("demo").innerHTML;
-  document.getElementById("demo").innerHTML =
+  let text = document.getElementById("demo7").innerHTML;
+  document.getElementById("demo7").innerHTML =
   text.replace("rate our page!","like our page in social media!");
 }
 </script>
@@ -216,9 +268,14 @@ function myFunction() {
  <div id="grad1"></div>
 
 
-<div id="ex4">
+ <div id="ex4">
    Don't be afraid to try new things.The best way to not regret the things you didn't do is to do them.
    </div>
+
+
+
+ 
+
 
  </body>
  </html>
