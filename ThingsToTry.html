@@ -153,16 +153,7 @@ document.getElementById("demo13").innerHTML = result;
         Here's a link  where you can find some good places to visit: <a href="https://www.opodo.co.uk/blog/amazing-unknown-places/">24 Amazing Unknown Places You Never Knew Existed</a></dd>
  </dl>
 </article>
-Keyword: 
-<b id="demo14"></b>
 
-<script>
-let text = "It is easy to stick to classic destinations, and although this is perfectly fine, one should also visit a lesser known destination, at least once. How about Bhutan, Nepal, Namibia, Uganda and Nigeria? Or why not Guatemala, French Guyana, the Faroe Islands or Albania?";
-let pattern = /is/g;
-let result = text.match(pattern);
-
-document.getElementById("demo14").innerHTML = result;
-</script>
 
 <article>
  <dl>
@@ -244,12 +235,12 @@ document.getElementById("demo20").innerHTML = n;
  </dl>
 </article>
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction1()">Try it</button>
 
 <p id="demo7">Please rate our page!</p>
 
 <script>
-function myFunction() {
+function myFunction1() {
   let text = document.getElementById("demo7").innerHTML;
   document.getElementById("demo7").innerHTML =
   text.replace("rate our page!","like our page in social media!");
