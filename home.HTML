@@ -65,8 +65,6 @@ body{
     }
     25% {background-color: none; left:1000px; top:40px;
     }
-
-    }
   }
     
 </style>
@@ -110,11 +108,14 @@ body{
 
     <p id="demo"></p>
 
+<script>
+let text1 = "Travel the world, eat healthy ";
+text1 += "and enjoy your life!";
+document.getElementById("demo").innerHTML = text1;
+</script>
 
-</body>
-<br></br>
-<head>
-    <div id="exp5">
+
+<div id="exp5">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
@@ -129,20 +130,16 @@ body{
       });
     });
     </script>
-    </head>
-    <body>
-    
-    <p id="test1">This is a paragraph.</p>
-    <p id="test2">This is another paragraph.</p>
-    
-    <p>Input field: <input type="text" id="test3" value="..."></p>
-    
-    <button id="btn1">SetText</button>
-    <button id="btn2">Set HTML</button>
-    <button id="btn3">Set Value</button>
-    
-    </body>
-</div>
-    
-    
+
+<p id="test1">This is a paragraph.</p>
+<p id="test2">This is another paragraph.</p>
+
+<p>^_^: <input type="text" id="test3" value="..."></p>
+
+<button id="btn1">SetText</button>
+<button id="btn2">Set HTML</button>
+<button id="btn3">Set Value</button>
+
+
+</body>
 </html>
