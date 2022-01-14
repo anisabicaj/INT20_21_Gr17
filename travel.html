@@ -305,6 +305,18 @@ function showPosition(position) {
 </div>
 
 <br><br><br><br><br><br><br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").append(" <b>Appended text</b>.");
+  });
+
+  $("#btn2").click(function(){
+    $("ol").append("<li>Tokyo,Japan</li>");
+  });
+});
+</script>
 
 <div class="div2">
 <h2><b>Best cities to visit this winter</b></h2>
@@ -316,8 +328,30 @@ function showPosition(position) {
     <li style="font-size: 20px;">Ottawa, Canada</li>
     
 </div>
+<button id="btn2">Append list items</button>
 
-<p id="demo2"></p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#btn3").click(function(){
+      $("#div22").empty();
+    });
+  });
+  </script>
+  
+
+  <div id="div22" style="height:100px;width:300px;border:none;background-color:none;">
+  
+  
+  <p>What you need to make sure before traveling is planning and packing properly.
+  Also you should always do research about the place you are going beforehand.</p>
+  
+  </div>
+  <button id="btn3">Remove</button>
+
+
+  <p id="demo2"></p>
 
 <script>
 
@@ -330,6 +364,23 @@ const place = {
 document.getElementById("demo2").innerHTML =
 place.Name + " is the " + place.Status+" country in the world.";
 </script>
+
+
+
+  <h3>Fun fact</h3>
+  <p>The most visited city these years is Bangkok 
+    <br>where the number of visitors for a year is :</p>
+  
+  <p id="demo23"></p>
+  
+  <script>
+  let num = 22000000;
+  let text = num.toString();
+  
+  
+  document.getElementById("demo23").innerHTML = text;
+  </script>
+
 
 
 
@@ -456,7 +507,7 @@ theCity.name + " has a population of" + theCity.population + " banors." ;
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <script>
           $(document).ready(function(){
-            $("button").click(function(){
+            $("#btn4").click(function(){
               $(".view").hide();
             });
           });
@@ -466,27 +517,11 @@ theCity.name + " has a population of" + theCity.population + " banors." ;
           <pre><b class="view">           In these places you can enjoy the beautiful view of the nature
            covered with snow.</b>
           <b> If you visit one of these places, we hope you will have a good time.</b>
-          <button>Click me</button>
+          <button id="btn4">Click me</button>
         </b>
 </pre> 
 </div>
-<p id="demo10"></p>
 
-<script>
-// Constructor function for City objects
-function City(name, characteristic) {
-  this.name = name;
-  this.characteristic = characteristic;
-  
-}
-
-// Create a City object
-const myCity = new City("Amsterdam", " the fields with Dutch Tulips");
-
-// Display characteristic
-document.getElementById("demo10").innerHTML =
-"Amsterdam in known for  " + myCity.characteristic + "."; 
-</script>
         
        
     <center>
