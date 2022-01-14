@@ -51,6 +51,17 @@
     padding: 2px;
 }
 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #4e6954;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 20px;
+  display: none;
+}
         
 </style>
 
@@ -126,6 +137,21 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+
+</head>
+<body>
+ 
+<div id="flip">Click to show extra information</div>
+<div id="panel">This website was created in 2021 by two contributors Anisa and Ariana</div>
 
 
 <b>We are very happy that you're exploring our website :)</b>
